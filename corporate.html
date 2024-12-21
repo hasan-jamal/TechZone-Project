@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone</title>
+    <link rel="icon" href="./images/logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/pages.css">
+    <!---Bootstrap 5 CSS && JS-->
+    <link rel="stylesheet" href="./css/bootstrap5.2.3/bootstrap.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class="d-flex align-items-center flex-head">
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+            <a href="index.html"><img src="./images/TECHZONE-LOGO 2.svg" class="logo-image" /></a>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/TECHZONE-LOGO 2.svg" class="logo img" />
+                <div class="fx-links">
+                    <a href="./index.html" class="style-font">Home</a>
+                    <div class="border"></div>
+                    <a href="./services.html" class="style-font">Services</a>
+                    <div class="border"></div>
+                    <a href="#" class="style-font">Products</a>
+                    <div class="border"></div>
+                    <a href="./industries.html" class="style-font">Industries</a>
+                    <div class="border"></div>
+                    <a href="./corporate.html" class="style-font active-nav">Corporate</a>
+                    <div class="border"></div>
+                    <a href="./blog.html" class="style-font ">Blog</a>
+                    <div class="border"></div>
+                    <a href="" class="style-font">+252 61 8601212</a>
+                    <div class="border"></div>
+                    <div class="nav-last-div">
+                        <button class="btn-move gap-2" onclick="window.location.href='./contact.html'">
+                            <img src="./images/circle-header.png" alt="circle-header">
+                            <span>Free Consultation</span>
+                        </button>
+                    </div>
+                </div>
+        </nav>
+    </div>
+    <header id="header">
+        <div class="d-flex justify-content-between fx-style-header">
+            <div class="section1-navbar">
+                <a href="./index.html"><img src="./images/logo.svg" alt="logo image"></a>
+            </div>
+            <div class="section2-navbar">
+                <div class="links-navbar">
+                    <div class="box-link">
+                        <a href="./services.html" class="link" data-target="services-list">Services</a>
+                        <div class="list-menu-link" id="services-list">
+                            <div class="d-flex">
+                                <div class="code-slider">
+                                    <div class="slider-link slide-target">
+                                        <div class="slide-nav active"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Mobile App</h1>
+                                            <p class="font-semiBold">TechZone provides a broad range of mobile app
+                                                development and software development
+                                                services to help you harness the power of technology, consulting, and
+                                                maximize your online business
+                                                investment.</p>
+                                        </div>
+                                        <div class="slide-nav"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Mobile App</h1>
+                                            <p class="font-semiBold">TechZone provides a broad range of mobile app
+                                                development and software development
+                                                services to help you harness the power of technology and consulting</p>
+                                        </div>
+                                    </div>
+                                    <div class="slider-link-dots slide-target-dots"></div>
+                                </div>
+                                <div class="d-flex links-list">
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Mobile App Development</h4>
+                                        <a href="" class="style-font">Android App Development</a>
+                                        <a href="" class="style-font">iOS App Development</a>
+                                        <a href="" class="style-font">React Native App Development</a>
+                                        <a href="" class="style-font">Flutter App Development</a>
+                                        <a href="" class="style-font">Augmented Reality / VR</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Hire Developers</h4>
+                                        <a href="" class="style-font">Hire Mobile App Developers</a>
+                                        <a href="" class="style-font">Hire Android App Developers</a>
+                                        <a href="" class="style-font">Hire iOS App Developers</a>
+                                        <a href="" class="style-font">Hire React Native App Developers</a>
+                                        <a href="" class="style-font">Hire Flutter App Developers</a>
+                                        <a href="" class="style-font">Hire Web Developers</a>
+                                        <a href="" class="style-font">Hire Software Developers</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Web Development</h4>
+                                        <a href="" class="style-font">Ecommerce Development</a>
+                                        <a href="" class="style-font">Content Management System (CMS)</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Software Development</h4>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium pre-whiteSpace">Quality Assurance and Testing</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-link">
+                        <a href="" class="link" data-target="products-list">Products</a>
+                        <div class="list-menu-link" id="products-list">
+                            <div class="d-flex">
+                                <div class="code-slider">
+                                    <div class="slider-link slide-target">
+                                        <div class="slide-nav active"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Products</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional, robust and scalable applications.</p>
+                                        </div>
+                                        <div class="slide-nav"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Products</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional, robust and scalable applications.</p>
+                                        </div>
+                                    </div>
+                                    <div class="slider-link-dots slide-target-dots"></div>
+                                </div>
+                                <div class="d-flex links-list">
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Web Hosting & Domain</h4>
+                                        <a href="" class="style-font">A comprehensive platform offering hosting
+                                            services, domain name registration, and subscription management
+                                            solutions.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Healthcare</h4>
+                                        <a href="" class="style-font">A comprehensive platform offering healthcare
+                                            clinic management solutions and patient follow-up features.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Prime LMS</h4>
+                                        <a href="" class="style-font">A comprehensive e-learning platform offering tools
+                                            for students and parents to track academic progress and complete
+                                            assignments.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Prime Restaurants</h4>
+                                        <a href="" class="style-font">A comprehensive restaurant management platform
+                                            providing order taking, payment processing, and a wide range of
+                                            additional services.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Prime Retail</h4>
+                                        <a href="" class="style-font">A comprehensive retail management system providing
+                                            numerous technical solutions.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">CPM</h4>
+                                        <a href="" class="style-font">A comprehensive system for managing real estate
+                                            development projects, including cost tracking and progress monitoring.
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-link">
+                        <a href="./industries.html" class="link" data-target="Industries-list">Industries</a>
+                        <div class="list-menu-link" id="Industries-list">
+                            <div class="d-flex">
+                                <div class="code-slider">
+                                    <div class="slider-link slide-target">
+                                        <div class="slide-nav active"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Industries</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional, robust and scalable applications.</p>
+                                        </div>
+                                        <div class="slide-nav"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Industries</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional</p>
+                                        </div>
+                                    </div>
+                                    <div class="slider-link-dots slide-target-dots"></div>
+                                </div>
+                                <div class="section-Industries-boxs">
+                                    <div class="Industry-box">
+                                        <img src="./images/Automotive.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Automotive</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Real Estate.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Real Estate</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Entertainment.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Entertainment</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Retail & Ecommerce.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Retail & Ecommerce</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Healthcare.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Healthcare</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Transportation.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Transportation</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Manufacturing.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Manufacturing</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Travel & Tourism.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Travel & Tourism</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Professional Services.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Professional Services</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Software.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Software Vendors</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Banking.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Banking & Finance</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Education.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Education </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-link">
+                        <a href="./corporate.html" class="link" data-target="Corporate-list">Corporate</a>
+                        <div class="list-menu-link" id="Corporate-list">
+                            <div class="d-flex fx-">
+                                <div class="code-slider">
+                                    <div class="slider-link slide-target">
+                                        <div class="slide-nav active"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Corporate</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional, robust and scalable applications.</p>
+                                        </div>
+                                        <div class="slide-nav"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Corporate</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional</p>
+                                        </div>
+                                    </div>
+                                    <div class="slider-link-dots slide-target-dots"></div>
+                                </div>
+                                <div class="d-flex links-list">
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">About us</h4>
+                                        <a href="" class="style-font">TechZone is ranked amongst Somalia top software
+                                            development companies.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Testimonials</h4>
+                                        <a href="" class="style-font">Let's talk on how TechZone can help you build your
+                                            next big idea.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Careers</h4>
+                                        <a href="" class="style-font">We strive to give you a full-fledged growing
+                                            career driven with passion.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Case Studies</h4>
+                                        <a href="" class="style-font">See how our clients have experienced competitive
+                                            advantage.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium pre-whiteSpace">Contact Us</h4>
+                                        <a href="" class="style-font">Reach out to us and expect a swift response to
+                                            your questions and requests.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium pre-whiteSpace">Portfolio</h4>
+                                        <a href="" class="style-font">Discover a world of infinite possibilities with
+                                            our portfolio showcase.
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="./blog.html" class="link">Blog</a>
+                    <a href="" class="link">+252 61 8601212</a>
+                    <button class="btn-section2-navbar " onclick="window.location.href='./contact.html'">
+                        <img src="./images/circle-header.png" alt="circle-header">
+                        <span>Free Consultation</span>
+                    </button>
+                    <button class="btn-side-header" onclick="toggleSidenav();">
+                        <div class="side1"></div>
+                        <div class="side2"></div>
+                        <div class="side3"></div>
+                    </button>
+                    <!-- <div class="list-section2-navbar">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-header">
+            <h1 class="style-font font-bold">Corporate</h1>
+            <div class="line-red"></div>
+            <p class="style-font font-semiBold">TechZone is ranked amongst India's top software development, mobile
+                application development and IT consulting companies.</p>
+        </section>
+        <section class="section-industry ">
+            <div class="section-industry-container">
+                <h2 class="style-font font-bold">We transform every industry and
+                    business processes.</h2>
+                <div class="d-flex fx-section-industry">
+                    <div class="fx-industry-part">
+                        <h1 class="style-font font-bold"> 14 <span class="font-red">+</span></h1>
+                        <p class="style-font font-medium">YEARS IN BUSINESS</p>
+                    </div>
+                    <div class="fx-industry-part">
+                        <h1 class="style-font font-bold"> 230 <span class="font-red">+</span></h1>
+                        <p class="style-font font-medium">IT PROFESSIONALS</p>
+                    </div>
+                    <div class="fx-industry-part fx-industry-part-center">
+                        <p class="style-font font-medium pb-4">ISO 9001 <span class="font-red">CERTIFIED</span></p>
+                        <p class="style-font font-medium">NASSCOM & STPI ACCREDITATION</p>
+                    </div>
+                    <div class="fx-industry-part">
+                        <h1 class="style-font font-bold"> 1800 <span class="font-red">+</span></h1>
+                        <p class="style-font font-medium">CLIENTS WORLDWIDE</p>
+                    </div>
+                    <div class="fx-industry-part">
+                        <h1 class="style-font font-bold"> 4500 <span class="font-red">+</span></h1>
+                        <p class="style-font font-medium">PROJECTS EXECUTED</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-boxs-website">
+            <div class="boxs-website-container">
+                <div class="d-flex fx-boxs-website">
+                    <div class="box-detail-website">
+                        <h4 class="style-font font-semiBold">About us</h4>
+                        <div class="line-red"></div>
+                        <p class="font-medium">TechZone is ranked amongst Somalia top software development companies.
+                        </p>
+                    </div>
+                    <div class="box-detail-website">
+                        <h4 class="style-font font-semiBold">Testimonials</h4>
+                        <div class="line-red"></div>
+                        <p class="font-medium">Let's talk on how TechZone can help you build your next big idea.
+                        </p>
+                    </div>
+                    <div class="box-detail-website">
+                        <h4 class="style-font font-semiBold">Careers</h4>
+                        <div class="line-red"></div>
+                        <p class="font-medium">We strive to give you a full-fledged growing career driven with passion..
+                        </p>
+                    </div>
+                    <div class="box-detail-website">
+                        <h4 class="style-font font-semiBold">Case Studies</h4>
+                        <div class="line-red"></div>
+                        <p class="font-medium">See how our clients have experienced competitive advantage.
+                        </p>
+                    </div>
+                    <div class="box-detail-website">
+                        <h4 class="style-font font-semiBold">Contact Us</h4>
+                        <div class="line-red"></div>
+                        <p class="font-medium">Reach out to us and expect a swift response to your questions and
+                            requests.
+                        </p>
+                    </div>
+                    <div class="box-detail-website">
+                        <h4 class="style-font font-semiBold">Portfolio</h4>
+                        <div class="line-red"></div>
+                        <p class="font-medium">Discover a world of infinite possibilities with our portfolio showcase.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-speak-general">
+            <div class="speak-general-container">
+                <div class="d-flex fx-speak-general">
+                    <div class="d-flex speak-general-texts flex-column">
+                        <h1 class="style-font font-semiBold mb-0">Software development firm with enviable track record.
+                        </h1>
+                        <p class="font-medium mb-0">Started in the year 2020, TechZone is an ISO 9001:2010 certified
+                            software development company
+                            with 300+ highly skilled
+                            IT experts catering result-oriented and cost-competitive solutions to SMEs across the world.
+                            Being a premium partner of
+                            NASSCOM and STPI, TechZone holds the trust of over 1500+ clients across diverse business
+                            verticals. This trust is based
+                            on our reputation as an exemplary IT outsourcing company among leading business houses and
+                            standardizing organizations.
+                        </p>
+                    </div>
+                    <div class="box-move">
+                        <h3 class="style-font font-semiBold">Request Information</h3>
+                        <div class="line-red"></div>
+                        <p class="style-font">To start a dialogue with our consultant, please complete our contact
+                            form and we shall
+                            get in
+                            touch with you shortly.
+                        </p>
+                        <button class="button-red">Consult our Experts</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-team">
+            <div class="section-team-container">
+                <h1 class="style-font font-semiBold">Our professional team</h1>
+                <p class="font-medium">Our team of seasoned developers possesses the necessary expertise and knowledge
+                    to create custom digital solutions that
+                    precisely cater to your specific requirements.</p>
+                <div class="d-flex align-items-start justify-content-center fx-section-team">
+                    <div class="box-detail-person">
+                        <img src="./images/team1.png" alt="person" class="person-image">
+                        <div class="d-flex align-items-center justify-content-center flex-column box-person">
+                            <h5 class="font-bold">Ms. Hazel Fahey</h5>
+                            <h6 class="font-bold">CEO</h6>
+                            <a href="" class="font-bold">
+                                <img src="./images/linkedin-white.svg" alt="linkedin white" class="linkedin-white">
+                                <span>Ms. Hazel Fahey</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-detail-person">
+                        <img src="./images/team2.png" alt="person" class="person-image">
+                        <div class="d-flex align-items-center justify-content-center flex-column box-person">
+                            <h5 class="font-bold">Miss Johnnie Pollich</h5>
+                            <h6 class="font-bold">GM</h6>
+                            <a href="" class="font-bold">
+                                <img src="./images/linkedin-white.svg" alt="linkedin white" class="linkedin-white">
+                                <span>Miss
+                                    Johnnie Pollich</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start justify-content-center fx-section-team">
+                    <div class="box-detail-person">
+                        <img src="./images/team1.png" alt="person" class="person-image">
+                        <div class="d-flex align-items-center justify-content-center flex-column box-person">
+                            <h5 class="font-bold">Ms. Hazel Fahey</h5>
+                            <h6 class="font-bold">CEO</h6>
+                            <a href="" class="font-bold">
+                                <img src="./images/linkedin-white.svg" alt="linkedin white" class="linkedin-white">
+                                <span>Ms. Hazel Fahey</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-detail-person">
+                        <img src="./images/team2.png" alt="person" class="person-image">
+                        <div class="d-flex align-items-center justify-content-center flex-column box-person">
+                            <h5 class="font-bold">Miss Johnnie Pollich</h5>
+                            <h6 class="font-bold">GM</h6>
+                            <a href="" class="font-bold">
+                                <img src="./images/linkedin-white.svg" alt="linkedin white" class="linkedin-white">
+                                <span>Miss
+                                    Johnnie Pollich</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-detail-person">
+                        <img src="./images/team1.png" alt="person" class="person-image">
+                        <div class="d-flex align-items-center justify-content-center flex-column box-person">
+                            <h5 class="font-bold">Ms. Hazel Fahey</h5>
+                            <h6 class="font-bold">CEO</h6>
+                            <a href="" class="font-bold">
+                                <img src="./images/linkedin-white.svg" alt="linkedin white" class="linkedin-white">
+                                <span>Ms. Hazel Fahey</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-detail-person">
+                        <img src="./images/team2.png" alt="person" class="person-image">
+                        <div class="d-flex align-items-center justify-content-center flex-column box-person">
+                            <h5 class="font-bold">Miss Johnnie Pollich</h5>
+                            <h6 class="font-bold">GM</h6>
+                            <a href="" class="font-bold">
+                                <img src="./images/linkedin-white.svg" alt="linkedin white" class="linkedin-white">
+                                <span>Miss
+                                    Johnnie Pollich</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-detail-person">
+                        <img src="./images/team1.png" alt="person" class="person-image">
+                        <div class="d-flex align-items-center justify-content-center flex-column box-person">
+                            <h5 class="font-bold">Ms. Hazel Fahey</h5>
+                            <h6 class="font-bold">CEO</h6>
+                            <a href="" class="font-bold">
+                                <img src="./images/linkedin-white.svg" alt="linkedin white" class="linkedin-white">
+                                <span>Ms. Hazel Fahey</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-detail-person">
+                        <img src="./images/team2.png" alt="person" class="person-image">
+                        <div class="d-flex align-items-center justify-content-center flex-column box-person">
+                            <h5 class="font-bold">Miss Johnnie Pollich</h5>
+                            <h6 class="font-bold">GM</h6>
+                            <a href="" class="font-bold">
+                                <img src="./images/linkedin-white.svg" alt="linkedin white" class="linkedin-white">
+                                <span>Miss
+                                    Johnnie Pollich</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-countries section-countries-margin">
+            <div class="section-countries-container">
+                <h1 class="style-font font-semiBold">Why do customers in over <span class="font-red">50+</span>
+                    countries <br>
+                    choose TechZone?</h1>
+                <div class="d-flex fx-section-countries w-100">
+                    <div class="fx-countries-part1 d-flex flex-column ">
+                        <div class="d-flex fx-countries-boxs fx-general-cards w-100">
+                            <div class="countries-box d-flex align-items-center justify-content-center">
+                                <h6 class="style-font font-bold">Flexible engagement
+                                    models</h6>
+                            </div>
+                            <div class="countries-box d-flex align-items-center justify-content-center">
+                                <h6 class="style-font font-bold">24x7 Support across
+                                    all timezones</h6>
+                            </div>
+                            <div class="countries-box d-flex align-items-center justify-content-center">
+                                <h6 class="style-font font-bold">Competitive pricing
+                                    ,ontime delivery</h6>
+                            </div>
+                            <div class="countries-box d-flex align-items-center justify-content-center">
+                                <h6 class="style-font font-bold">State of the art it
+                                    infrastructure</h6>
+                            </div>
+                            <div class="countries-box d-flex align-items-center justify-content-center">
+                                <h6 class="style-font font-bold">Strong technology
+                                    competency</h6>
+                            </div>
+                            <div class="countries-box d-flex align-items-center justify-content-center">
+                                <h6 class="style-font font-bold">Seamless
+                                    communication</h6>
+                            </div>
+                        </div>
+                        <button class="btn-move">Explore Your Next</button>
+                    </div>
+                    <div class="d-flex fx-countries-part2">
+                        <div class="slider-countries">
+                            <div class="slide">
+                                <h5 class="style-font font-medium">
+                                    <span class="font-red-capitalize">Nichole Borer IV</span>. Leffler, Kirlin and
+                                    Rempel
+                                </h5>
+                                <p class="font-OpenSans">"We were very impressed with TechZone. Understanding the needs
+                                    of customers is the key
+                                    to any successful business. TechZone perfectly understands these needs and knows how
+                                    to translate them into
+                                    applicable strategies."</p>
+                            </div>
+                            <div class="slide">
+                                <h5 class="style-font font-medium">
+                                    <span class="font-red-capitalize">Nichole Borer IV</span>. Leffler, Kirlin and
+                                    Rempel
+                                </h5>
+                                <p class="font-OpenSans">"We were very impressed with TechZone. Understanding the needs
+                                    of customers is the key
+                                    to any successful business. TechZone perfectly understands these needs and knows how
+                                    to translate them into
+                                    applicable strategies."</p>
+                            </div>
+                            <div class="slide">
+                                <h5 class="style-font font-medium">
+                                    <span class="font-red-capitalize">Nichole Borer IV</span>. Leffler, Kirlin and
+                                    Rempel
+                                </h5>
+                                <p class="font-OpenSans">"We were very impressed with TechZone. Understanding the needs
+                                    of customers is the key
+                                    to any successful business. TechZone perfectly understands these needs and knows how
+                                    to translate them into
+                                    applicable strategies."</p>
+                            </div>
+                        </div>
+                        <div class="slider-countries-dots">
+                            <div class="active"></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-items">
+            <div class="section-items-container fx-general-cards">
+                <img src="./images/Item.png" alt="logo">
+                <img src="./images/Item (1).png" alt="logo">
+                <img src="./images/Item (2).png" alt="logo">
+                <img src="./images/Item (3).png" alt="logo">
+                <img src="./images/Item (4).png" alt="logo">
+                <img src="./images/Item (5).png" alt="logo">
+                <img src="./images/Item (6).png" alt="logo">
+                <img src="./images/Item (7).png" alt="logo">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="d-flex align-items-start fx-footer">
+                <div class="fx-footer-part1">
+                    <img src="./images/TECHZONE-LOGO 2.svg" alt="TECHZONE-LOGO" class="logo-footer">
+                    <div class="d-flex flex-info align-items-center">
+                        <img src="./images/PhoneCall.svg" alt="PhoneCall icon">
+                        <div class="information-footer">
+                            <span class="style-font font-medium">Call Me</span>
+                            <h4 class="style-font font-medium">+972 567408830</h4>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-info align-items-center">
+                        <img src="./images/email.svg" alt="email icon">
+                        <div class="information-footer">
+                            <span class="style-font font-medium">Chat with me</span>
+                            <h4 class="style-font font-medium">othmanhamad940@gmail.com</h4>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-info align-items-center">
+                        <img src="./images/google-maps.svg" alt="google-maps icon">
+                        <div class="information-footer">
+                            <span class="style-font font-medium">location</span>
+                            <h4 class="style-font font-medium">Mogadishu_street_name_building</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="fx-footer-part2">
+                    <div class="links-footer">
+                        <h5 class="style-font">Company</h5>
+                        <a href="" class="style-font">About us</a>
+                        <a href="" class="style-font">Team members</a>
+                        <a href="" class="style-font">Blog</a>
+                        <a href="" class="style-font">Partners and clients</a>
+                    </div>
+                    <div class="links-footer">
+                        <h5 class="style-font">Services</h5>
+                        <a href="" class="style-font">Web Development</a>
+                        <a href="" class="style-font">Mobile App Development</a>
+                        <a href="" class="style-font">Software Development</a>
+                        <a href="" class="style-font">Quality Assurance & Testing</a>
+                        <a href="" class="style-font">Hire Developers</a>
+                    </div>
+                    <div class="links-footer">
+                        <h5 class="style-font">Our Information</h5>
+                        <a href="" class="style-font">Privacy policy</a>
+                        <a href="" class="style-font">Terms & Conditions</a>
+                        <a href="" class="style-font">Customer Support</a>
+                    </div>
+                    <div class="links-footer">
+                        <h5 class="style-font">Products</h5>
+                        <a href="" class="style-font">Web Hosting & Domain</a>
+                        <a href="" class="style-font">Prime Restaurants</a>
+                        <a href="" class="style-font">Healthcare</a>
+                        <a href="" class="style-font">Prime Retail</a>
+                        <a href="" class="style-font">Prime LMS</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-between Copyright">
+            <div class="d-flex align-items-end Copyright-part1">
+                <img src="./images/logo.svg" alt="">
+                <p class="style-font">© Copyright 2020- 2024 TechZone</p>
+            </div>
+            <div class="d-flex align-items-center Copyright-part2">
+                <h6 class="style-font font-medium">Follow us on :</h6>
+                <div class="d-flex align-items-center Copyright-part2-imgs">
+                    <a href=""><img src="./images/Instagram.svg" alt="Instagram icon"></a>
+                    <a href=""><img src="./images/Youtube.svg" alt="Youtube icon"></a>
+                    <a href=""><img src="./images/facebook.svg" alt="facebook icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap 5 JS-->
+    <script src=" ./js/bootstrap js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery Library -->
+    <script src="./js/jquery/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/slick.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- gsap Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="./js/gsap.js"></script>
+    <!-- Slider Country -->
+    <script src="./js/sliders/sliderCountries.js"></script>
+</body>
+
+</html>

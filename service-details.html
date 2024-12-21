@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone</title>
+    <link rel="icon" href="./images/logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/pages.css">
+    <!---Bootstrap 5 CSS && JS-->
+    <link rel="stylesheet" href="./css/bootstrap5.2.3/bootstrap.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class="d-flex align-items-center flex-head">
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+            <a href="index.html"><img src="./images/TECHZONE-LOGO 2.svg" class="logo-image" /></a>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/TECHZONE-LOGO 2.svg" class="logo img" />
+                <div class="fx-links">
+                    <a href="./index.html" class="style-font">Home</a>
+                    <div class="border"></div>
+                    <a href="./services.html" class="style-font active-nav">Services</a>
+                    <div class="border"></div>
+                    <a href="#" class="style-font">Products</a>
+                    <div class="border"></div>
+                    <a href="./industries.html" class="style-font">Industries</a>
+                    <div class="border"></div>
+                    <a href="./corporate.html" class="style-font">Corporate</a>
+                    <div class="border"></div>
+                    <a href="./blog.html" class="style-font">Blog</a>
+                    <div class="border"></div>
+                    <a href="" class="style-font">+252 61 8601212</a>
+                    <div class="border"></div>
+                    <div class="nav-last-div">
+                        <button class="btn-move gap-2" onclick="window.location.href='./contact.html'">
+                            <img src="./images/circle-header.png" alt="circle-header">
+                            <span>Free Consultation</span>
+                        </button>
+                    </div>
+                </div>
+        </nav>
+    </div>
+    <header id="header">
+        <div class="d-flex justify-content-between fx-style-header">
+            <div class="section1-navbar">
+                <a href="./index.html"><img src="./images/logo.svg" alt="logo image"></a>
+            </div>
+            <div class="section2-navbar">
+                <div class="links-navbar">
+                    <div class="box-link">
+                        <a href="./services.html" class="link" data-target="services-list">Services</a>
+                        <div class="list-menu-link" id="services-list">
+                            <div class="d-flex">
+                                <div class="code-slider">
+                                    <div class="slider-link slide-target">
+                                        <div class="slide-nav active"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Mobile App</h1>
+                                            <p class="font-semiBold">TechZone provides a broad range of mobile app
+                                                development and software development
+                                                services to help you harness the power of technology, consulting, and
+                                                maximize your online business
+                                                investment.</p>
+                                        </div>
+                                        <div class="slide-nav"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Mobile App</h1>
+                                            <p class="font-semiBold">TechZone provides a broad range of mobile app
+                                                development and software development
+                                                services to help you harness the power of technology and consulting</p>
+                                        </div>
+                                    </div>
+                                    <div class="slider-link-dots slide-target-dots"></div>
+                                </div>
+                                <div class="d-flex links-list">
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Mobile App Development</h4>
+                                        <a href="" class="style-font">Android App Development</a>
+                                        <a href="" class="style-font">iOS App Development</a>
+                                        <a href="" class="style-font">React Native App Development</a>
+                                        <a href="" class="style-font">Flutter App Development</a>
+                                        <a href="" class="style-font">Augmented Reality / VR</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Hire Developers</h4>
+                                        <a href="" class="style-font">Hire Mobile App Developers</a>
+                                        <a href="" class="style-font">Hire Android App Developers</a>
+                                        <a href="" class="style-font">Hire iOS App Developers</a>
+                                        <a href="" class="style-font">Hire React Native App Developers</a>
+                                        <a href="" class="style-font">Hire Flutter App Developers</a>
+                                        <a href="" class="style-font">Hire Web Developers</a>
+                                        <a href="" class="style-font">Hire Software Developers</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Web Development</h4>
+                                        <a href="" class="style-font">Ecommerce Development</a>
+                                        <a href="" class="style-font">Content Management System (CMS)</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Software Development</h4>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium pre-whiteSpace">Quality Assurance and Testing</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-link">
+                        <a href="" class="link" data-target="products-list">Products</a>
+                        <div class="list-menu-link" id="products-list">
+                            <div class="d-flex">
+                                <div class="code-slider">
+                                    <div class="slider-link slide-target">
+                                        <div class="slide-nav active"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Products</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional, robust and scalable applications.</p>
+                                        </div>
+                                        <div class="slide-nav"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Products</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional, robust and scalable applications.</p>
+                                        </div>
+                                    </div>
+                                    <div class="slider-link-dots slide-target-dots"></div>
+                                </div>
+                                <div class="d-flex links-list">
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Web Hosting & Domain</h4>
+                                        <a href="" class="style-font">A comprehensive platform offering hosting
+                                            services, domain name registration, and subscription management
+                                            solutions.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Healthcare</h4>
+                                        <a href="" class="style-font">A comprehensive platform offering healthcare
+                                            clinic management solutions and patient follow-up features.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Prime LMS</h4>
+                                        <a href="" class="style-font">A comprehensive e-learning platform offering tools
+                                            for students and parents to track academic progress and complete
+                                            assignments.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Prime Restaurants</h4>
+                                        <a href="" class="style-font">A comprehensive restaurant management platform
+                                            providing order taking, payment processing, and a wide range of
+                                            additional services.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Prime Retail</h4>
+                                        <a href="" class="style-font">A comprehensive retail management system providing
+                                            numerous technical solutions.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">CPM</h4>
+                                        <a href="" class="style-font">A comprehensive system for managing real estate
+                                            development projects, including cost tracking and progress monitoring.
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-link">
+                        <a href="./industries.html" class="link" data-target="Industries-list">Industries</a>
+                        <div class="list-menu-link" id="Industries-list">
+                            <div class="d-flex">
+                                <div class="code-slider">
+                                    <div class="slider-link slide-target">
+                                        <div class="slide-nav active"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Industries</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional, robust and scalable applications.</p>
+                                        </div>
+                                        <div class="slide-nav"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Industries</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional</p>
+                                        </div>
+                                    </div>
+                                    <div class="slider-link-dots slide-target-dots"></div>
+                                </div>
+                                <div class="section-Industries-boxs">
+                                    <div class="Industry-box">
+                                        <img src="./images/Automotive.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Automotive</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Real Estate.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Real Estate</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Entertainment.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Entertainment</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Retail & Ecommerce.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Retail & Ecommerce</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Healthcare.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Healthcare</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Transportation.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Transportation</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Manufacturing.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Manufacturing</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Travel & Tourism.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Travel & Tourism</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Professional Services.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Professional Services</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Software.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Software Vendors</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Banking.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Banking & Finance</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Education.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Education </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-link">
+                        <a href="./corporate.html" class="link" data-target="Corporate-list">Corporate</a>
+                        <div class="list-menu-link" id="Corporate-list">
+                            <div class="d-flex fx-">
+                                <div class="code-slider">
+                                    <div class="slider-link slide-target">
+                                        <div class="slide-nav active"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Corporate</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional, robust and scalable applications.</p>
+                                        </div>
+                                        <div class="slide-nav"
+                                            style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
+                                            <h1 class="font-bold">Corporate</h1>
+                                            <p class="font-semiBold">We deliver highest level of customer service by
+                                                deploying innovative and collaborative project management systems to
+                                                build the most professional</p>
+                                        </div>
+                                    </div>
+                                    <div class="slider-link-dots slide-target-dots"></div>
+                                </div>
+                                <div class="d-flex links-list">
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">About us</h4>
+                                        <a href="" class="style-font">TechZone is ranked amongst Somalia top software
+                                            development companies.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Testimonials</h4>
+                                        <a href="" class="style-font">Let's talk on how TechZone can help you build your
+                                            next big idea.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Careers</h4>
+                                        <a href="" class="style-font">We strive to give you a full-fledged growing
+                                            career driven with passion.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium">Case Studies</h4>
+                                        <a href="" class="style-font">See how our clients have experienced competitive
+                                            advantage.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium pre-whiteSpace">Contact Us</h4>
+                                        <a href="" class="style-font">Reach out to us and expect a swift response to
+                                            your questions and requests.</a>
+                                    </div>
+                                    <div class="d-flex flex-column flex-links-list">
+                                        <h4 class="font-medium pre-whiteSpace">Portfolio</h4>
+                                        <a href="" class="style-font">Discover a world of infinite possibilities with
+                                            our portfolio showcase.
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="./blog.html" class="link">Blog</a>
+                    <a href="" class="link">+252 61 8601212</a>
+                    <button class="btn-section2-navbar " onclick="window.location.href='./contact.html'">
+                        <img src="./images/circle-header.png" alt="circle-header">
+                        <span>Free Consultation</span>
+                    </button>
+                    <button class="btn-side-header" onclick="toggleSidenav();">
+                        <div class="side1"></div>
+                        <div class="side2"></div>
+                        <div class="side3"></div>
+                    </button>
+                    <!-- <div class="list-section2-navbar">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-header align-items-start justify-content-start">
+            <div class="section-header-detail">
+                <h2 class="style-font font-bold">Mobile App
+                    Development Company</h2>
+                <div class="line-red"></div>
+                <p class="style-font font-semiBold text-start">TechZone is a top mobile app development company that
+                    addresses the challenges of dynamic market and transforms your
+                    digital business with cutting-edge mobile app solutions.</p>
+                <div class="d-flex align-items-center fx-header-icons">
+                    <img src="./images/java-svgrepo-com 1.svg" alt="java">
+                    <img src="./images/flutter-svgrepo-com 1.svg" alt="flutter">
+                    <img src="./images/kotlin-svgrepo-com 1.svg" alt="kotlin">
+                    <img src="./images/swift-svgrepo-com 1.svg" alt="swift">
+                    <img src="/images/react-svgrepo-com 1.svg" alt="react">
+                </div>
+                <button class="btn-move">Consult our Experts</button>
+            </div>
+        </section>
+        <section class="section-industry ">
+            <div class="section-industry-container">
+                <h2 class="style-font font-bold">We transform every industry and
+                    business processes.</h2>
+                <div class="d-flex fx-section-industry">
+                    <div class="fx-industry-part">
+                        <h1 class="style-font font-bold"> 14 <span class="font-red">+</span></h1>
+                        <p class="style-font font-medium">YEARS IN BUSINESS</p>
+                    </div>
+                    <div class="fx-industry-part">
+                        <h1 class="style-font font-bold"> 230 <span class="font-red">+</span></h1>
+                        <p class="style-font font-medium">IT PROFESSIONALS</p>
+                    </div>
+                    <div class="fx-industry-part fx-industry-part-center">
+                        <p class="style-font font-medium pb-4">ISO 9001 <span class="font-red">CERTIFIED</span></p>
+                        <p class="style-font font-medium">NASSCOM & STPI ACCREDITATION</p>
+                    </div>
+                    <div class="fx-industry-part">
+                        <h1 class="style-font font-bold"> 1800 <span class="font-red">+</span></h1>
+                        <p class="style-font font-medium">CLIENTS WORLDWIDE</p>
+                    </div>
+                    <div class="fx-industry-part">
+                        <h1 class="style-font font-bold"> 4500 <span class="font-red">+</span></h1>
+                        <p class="style-font font-medium">PROJECTS EXECUTED</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-redefine-business">
+            <div class="section-redefine-business-container">
+                <div class="d-flex  fx-sections-redefine fx-sections-redefine2">
+                    <div class="fx-section1">
+                        <h3 class="style-font  font-semiBold">TechZone is a top mobile app development company that
+                            builds innovative mobile apps for all verticals.</h3>
+                        <p class="style-font">As an award winning mobile app development company, we understand the
+                            significance of creating captivating and
+                            resourceful mobile apps to suit the necessities of businesses in this tech-dominated period.
+                            Our entire scope of
+                            services starts from developing engaging UI/UX of the apps and till their final deployment
+                            on all available platforms.
+                            In essence, we offer optimized mobile app development services to guarantee a satisfactory
+                            user experience. Our expert
+                            team of mobile app developers, designers, and marketers is passionate about furnishing the
+                            most extraordinary solutions
+                            to start-ups, large corporations, and businesses aiming to maximize their digital
+                            visibility. Being one of the top
+                            mobile app development companies, we prioritize designing mobile apps that cater to modern
+                            needs. We work with you from
+                            the commencement to the final delivery, making certain your app is maximally optimized for
+                            the most fulfilling user
+                            experience and is esthetically charming. Whether you're in need of a feature-packed app for
+                            hospitality, an ecommerce
+                            app for retailers, or an app for streamlining operations, we have you covered. Take your
+                            business to new heights of
+                            success and seize unparalleled achievement with our business focused and client-centric
+                            mobile app development services.</p>
+                        <button class="btn-move">View Our Portfolio</button>
+                    </div>
+                    <div class="fx-section2 d-flex fx-section-st">
+                        <div class="d-flex flex-column">
+                            <div class="part1 mt-0">
+                                <img src="./images/android-color-svgrepo-com 1.svg"
+                                    alt="Android App Development Services icon">
+                                <h4 class="font-bold subtitle-one">Android App Development Services</h4>
+                                <p class="subtitle-two">Are you an entrepreneur looking for a top app development
+                                    company
+                                    to bring your idea to life? Or are you a well
+                                    established business looking to upgrade features of your present Android app? Our
+                                    expert team of Android developers can
+                                    assist you in developing cutting-edge applications. Our range of Android app
+                                    development services encompasses custom
+                                    apps, corporate apps, utility apps, ecommerce apps etc.</p>
+                            </div>
+                            <div class="part2">
+                                <img src="./images/apple-173-svgrepo-com 1.svg" alt="iOS App Development Services icon">
+                                <h4 class="font-bold subtitle-one">iOS App Development Services </h4>
+                                <p class="subtitle-two">Being one of the top app development companies, we deploy a team
+                                    on projects having 5+ yrs of experience. The technology
+                                    we use in our work is the latest Swift, Objective-C, and Xcode to develop
+                                    feature-packed mobile applications that match
+                                    the needs of your target audience. Our expert team of iOS app developers creates
+                                    robust and practical apps that run
+                                    seamlessly on all devices like iPhone and iPad.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="part3">
+                                <img src="./images/react-svgrepo-com 1.svg" alt="react">
+                                <h4 class="font-bold subtitle-one">React Native App Development Services</h4>
+                                <p class="subtitle-two">The React native developers at TechZone specialize in developing
+                                    apps with advanced features, impenetrable security, and
+                                    unparalleled stability. React Native has become a preferred choice for creating
+                                    cross-platform mobile applications and
+                                    enables app developers to create both Android and iOS programs with one codebase.
+                                    Our services cover different
+                                    industries, including but not limited to health, delivery, ecommerce, etc.</p>
+                            </div>
+                            <div class="part5">
+                                <img src="./images/flutter-svgrepo-com 1.svg" alt="flutter icon">
+                                <h4 class="font-bold subtitle-one">Flutter App Development Services</h4>
+                                <p class="subtitle-two">Flutter app development is one of our core expertise and our
+                                    clients can avail Flutter app development services at
+                                    affordable prices. Our dedicated Flutter app developers leverage the Dart language
+                                    and the Flutter framework to create
+                                    feature packed applications. As a best mobile app development company, we strive to
+                                    create responsive and user-friendly
+                                    Flutter-based mobile apps for various industries and domains.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-Industries">
+            <div class="section-Industries-container">
+                <div class="section-Industries-part1">
+                    <h1 class="style-font font-bold text-center">Industries</h1>
+                    <p class="style-font font-semiBold text-center"> As a leading mobile app development company, we
+                        excel in offering custom <br>
+                        solutions for various industries, ensuring <br>
+                        great versatility and the ability to cater to diverse business needs.</p>
+                </div>
+                <div class="section-Industries-boxs">
+                    <div class="Industry-box">
+                        <img src="./images/Automotive.svg" alt="Automotive icon">
+                        <h6 class="style-font font-bold">Automotive</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Real Estate.svg" alt="Real Estate icon">
+                        <h6 class="style-font font-bold">Real Estate</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Entertainment.svg" alt="Entertainment icon">
+                        <h6 class="style-font font-bold">Entertainment</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Retail & Ecommerce.svg" alt="Retail icon">
+                        <h6 class="style-font font-bold">Retail & Ecommerce</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Healthcare.svg" alt="Automotive icon">
+                        <h6 class="style-font font-bold">Healthcare</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Transportation.svg" alt="Real Estate icon">
+                        <h6 class="style-font font-bold">Transportation</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Manufacturing.svg" alt="Entertainment icon">
+                        <h6 class="style-font font-bold">Manufacturing</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Travel & Tourism.svg" alt="Retail icon">
+                        <h6 class="style-font font-bold">Travel & Tourism</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Professional Services.svg" alt="Automotive icon">
+                        <h6 class="style-font font-bold">Professional Services</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Software.svg" alt="Real Estate icon">
+                        <h6 class="style-font font-bold">Software Vendors</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Banking.svg" alt="Entertainment icon">
+                        <h6 class="style-font font-bold">Banking & Finance</h6>
+                    </div>
+                    <div class="Industry-box">
+                        <img src="./images/Education.svg" alt="Retail icon">
+                        <h6 class="style-font font-bold">Education </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-talk-company">
+            <div class="d-flex fx-talk-company w-100">
+                <div class="talk-company-part1">
+                    <img src="./images/about-company.png" alt="about company">
+                </div>
+                <div class="talk-company-part2">
+                    <h2 class="style-font font-semiBold">Our charter is to make it think, <br>
+                        talk and <span class="font-red">perform</span> like a business.</h2>
+                    <p class="style-font">Our digital transformation services and solutions are smartly crafted to
+                        enable businesses to move, think, and perform
+                        like modern and agile enterprises. We offer end-to-end digital transformation services that
+                        allow businesses to create
+                        intelligent workflows, drive data-driven decisions, and maintain a competitive edge.</p>
+                    <button class="button-red">Consult our Experts</button>
+                </div>
+            </div>
+        </section>
+        <section class="development-services">
+            <div class="development-services-container">
+                <div class="d-flex fx-development-services">
+                    <div class="development-services-texts">
+                        <h1 class="style-font font-semiBold">We provide app development services that match your
+                            <span class="font-red">business</span> goals and help you drive maximum ROI
+                        </h1>
+                        <p class="font-OpenSans">As a top mobile app development company, we are mindful of the
+                            distinct
+                            necessities
+                            of each
+                            and every client. We have
+                            customized our engineering technique to fit every project, taking advantage of our
+                            technology plans, attention to
+                            detail, and originality to devise applications that precisely answer the end users' needs.
+                            We stay well-versed with the
+                            latest mobile app development industry trends, ensuring that the solutions we deliver are
+                            innovative, scalable, and
+                            future-ready. As a trusted app development company, we are focused on delivering
+                            unparalleled client service and bespoke
+                            solutions that guarantee the success of your project.</p>
+                        <button class="btn-move">Consult Our Experts</button>
+                    </div>
+                    <img src="./images/development-services.png" alt="development services"
+                        class="img-development-services">
+                </div>
+            </div>
+        </section>
+        <section class="section-commitment">
+            <div class="section-commitment-container">
+                <h2 class="style-font font-semiBold text-center title">Our Commitment & <span
+                        class="font-red">Guarantee</span>
+                </h2>
+                <div class="line-red"></div>
+                <p class="style-font  text-center subTitle">TechZone delivers robust, scalable and high performance
+                    software, web
+                    and mobile app development services to help you <br>
+                    harness the power of technology, consulting and maximize your online business investment.</p>
+                <div class="d-flex fx-section-commitment fx-general-cards">
+                    <div class="commitment-box">
+                        <img src="./images/commitment1.png" alt="100% Transparency">
+                        <h6 class="style-font font-bold">100% Transparency</h6>
+                        <p class="font-OpenSans">At TechZone, we believe in complete transparency with our clients and
+                            we
+                            keep them fully updated during the entire
+                            development production cycle.</p>
+                    </div>
+                    <div class="commitment-box">
+                        <img src="./images/commitment2.png" alt="95% Ontime Delivery">
+                        <h6 class="style-font font-bold">95% Ontime Delivery</h6>
+                        <p class="font-OpenSans">Our pursuit of agile development
+                            methodology have resulted in an enviable 95% on-time delivery track record for the past 20+
+                            years of our operations.</p>
+                    </div>
+                    <div class="commitment-box">
+                        <img src="./images/commitment3.png" alt="Free 30 Days Support">
+                        <h6 class="style-font font-bold">Free 30 Days Support</h6>
+                        <p class="font-OpenSans">We take complete responsibility of our work and provide free 30 days
+                            support to all our customer even after the software
+                            / mobile app has been launched.</p>
+                    </div>
+                    <div class="commitment-box">
+                        <img src="./images/commitment4.png" alt="Flexible Engagements">
+                        <h6 class="style-font font-bold">Flexible Engagements</h6>
+                        <p class="font-OpenSans">TechZone offers tailor-made engagement models, hand crafted to meet the
+                            exact requirements of clients with
+                            diversebusiness needs.</p>
+                    </div>
+                    <div class="commitment-box">
+                        <img src="./images/commitment5.png" alt="24X7 Support">
+                        <h6 class="style-font font-bold">24X7 Support</h6>
+                        <p class="font-OpenSans">Our communication channels are open 24/7 that connects you with the
+                            appropriate team of experts to ensure smooth
+                            execution of your project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-development m-0">
+            <div class="our-development-container">
+                <h1 class="style-font font-semiBold text-center">Our Development <span class="font-red">Process</span>
+                </h1>
+                <div class="line-red"></div>
+                <p class="font-OpenSans text-center subtitle-two">We deliver highest level of customer service by
+                    deploying
+                    innovative and
+                    collaborative project
+                    management systems to
+                    build the most professional, robust and highly scalable web & mobile solutions with highest quality
+                    standards.</p>
+                <div class="d-flex fx-our-development align-items-start justify-content-start">
+                    <div class="box-our-development">
+                        <div class="div-img">
+                            <img src="./images/Project-Requirements.svg" alt="Project Requirements">
+                        </div>
+                        <h5 class="font-bold subtitle-one">Post Your Project Requirements</h5>
+                        <p class="style-font mb-0 subtitle-two">Our experts will contact you within no time to discuss
+                            your project related queries and to
+                            offer the best solution for
+                            your project development.</p>
+                    </div>
+                    <div class="box-our-development">
+                        <div class="div-img">
+                            <img src="./images/our-Analysts.svg" alt="Discuss Project Details with our Analysts">
+                        </div>
+                        <h5 class="font-bold subtitle-one">Discuss Project Details with our Analysts</h5>
+                        <p class="style-font mb-0 subtitle-two">Our experts will contact you within no time to discuss
+                            your project related queries and to offer the best solution for
+                            your project development.</p>
+                    </div>
+                    <div class="box-our-development">
+                        <div class="div-img">
+                            <img src="./images/Engagement-Terms.svg" alt="Choose Engagement Terms & Timelines">
+                        </div>
+                        <h5 class="font-bold subtitle-one">Choose Engagement Terms & Timelines</h5>
+                        <p class="style-font mb-0 subtitle-two">Based on the project consultation provided by our
+                            experts, you can choose the engagement timelines for your project
+                            execution.</p>
+                    </div>
+                    <div class="box-our-development">
+                        <div class="div-img">
+                            <img src="./images/Project-Agreement.svg" alt="Review and Sign the Project Agreement">
+                        </div>
+                        <h5 class="font-bold subtitle-one">Review and Sign the Project Agreement</h5>
+                        <p class="style-font mb-0 subtitle-two">Formalize your project with a tailored contract,
+                            ensuring transparency and mutual commitment before project development
+                            begins.p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class=" section-items">
+            <div class="section-items-container fx-general-cards">
+                <img src="./images/Item.png" alt="logo">
+                <img src="./images/Item (1).png" alt="logo">
+                <img src="./images/Item (2).png" alt="logo">
+                <img src="./images/Item (3).png" alt="logo">
+                <img src="./images/Item (4).png" alt="logo">
+                <img src="./images/Item (5).png" alt="logo">
+                <img src="./images/Item (6).png" alt="logo">
+                <img src="./images/Item (7).png" alt="logo">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="d-flex align-items-start fx-footer">
+                <div class="fx-footer-part1">
+                    <img src="./images/TECHZONE-LOGO 2.svg" alt="TECHZONE-LOGO" class="logo-footer">
+                    <div class="d-flex flex-info align-items-center">
+                        <img src="./images/PhoneCall.svg" alt="PhoneCall icon">
+                        <div class="information-footer">
+                            <span class="style-font font-medium">Call Me</span>
+                            <h4 class="style-font font-medium">+972 567408830</h4>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-info align-items-center">
+                        <img src="./images/email.svg" alt="email icon">
+                        <div class="information-footer">
+                            <span class="style-font font-medium">Chat with me</span>
+                            <h4 class="style-font font-medium">othmanhamad940@gmail.com</h4>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-info align-items-center">
+                        <img src="./images/google-maps.svg" alt="google-maps icon">
+                        <div class="information-footer">
+                            <span class="style-font font-medium">location</span>
+                            <h4 class="style-font font-medium">Mogadishu_street_name_building</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="fx-footer-part2">
+                    <div class="links-footer">
+                        <h5 class="style-font">Company</h5>
+                        <a href="" class="style-font">About us</a>
+                        <a href="" class="style-font">Team members</a>
+                        <a href="" class="style-font">Blog</a>
+                        <a href="" class="style-font">Partners and clients</a>
+                    </div>
+                    <div class="links-footer">
+                        <h5 class="style-font">Services</h5>
+                        <a href="" class="style-font">Web Development</a>
+                        <a href="" class="style-font">Mobile App Development</a>
+                        <a href="" class="style-font">Software Development</a>
+                        <a href="" class="style-font">Quality Assurance & Testing</a>
+                        <a href="" class="style-font">Hire Developers</a>
+                    </div>
+                    <div class="links-footer">
+                        <h5 class="style-font">Our Information</h5>
+                        <a href="" class="style-font">Privacy policy</a>
+                        <a href="" class="style-font">Terms & Conditions</a>
+                        <a href="" class="style-font">Customer Support</a>
+                    </div>
+                    <div class="links-footer">
+                        <h5 class="style-font">Products</h5>
+                        <a href="" class="style-font">Web Hosting & Domain</a>
+                        <a href="" class="style-font">Prime Restaurants</a>
+                        <a href="" class="style-font">Healthcare</a>
+                        <a href="" class="style-font">Prime Retail</a>
+                        <a href="" class="style-font">Prime LMS</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-between Copyright">
+            <div class="d-flex align-items-end Copyright-part1">
+                <img src="./images/logo.svg" alt="">
+                <p class="style-font">© Copyright 2020- 2024 TechZone</p>
+            </div>
+            <div class="d-flex align-items-center Copyright-part2">
+                <h6 class="style-font font-medium">Follow us on :</h6>
+                <div class="d-flex align-items-center Copyright-part2-imgs">
+                    <a href=""><img src="./images/Instagram.svg" alt="Instagram icon"></a>
+                    <a href=""><img src="./images/Youtube.svg" alt="Youtube icon"></a>
+                    <a href=""><img src="./images/facebook.svg" alt="facebook icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap 5 JS-->
+    <script src=" ./js/bootstrap js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery Library -->
+    <script src="./js/jquery/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/slick.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- gsap Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="./js/gsap.js"></script>
+
+</body>
+
+</html>

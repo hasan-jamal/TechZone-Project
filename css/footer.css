@@ -1,0 +1,161 @@
+footer .footer-container{
+    background: #F9FAFC;
+    padding: 70px 89px;
+}
+footer .footer-container .fx-footer{
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+footer .footer-container .fx-footer .fx-footer-part1{
+    flex: 1 1 calc(28% - 1px);
+    box-sizing: border-box;
+    max-width: calc(28% - 0px);
+    width: max-content;
+    transition: 0.3s; 
+    cursor: pointer;
+}
+footer .footer-container .fx-footer .fx-footer-part1 .logo-footer{
+    margin-bottom: 28px;
+    width: 100%;
+}
+.fx-footer-part1 .flex-info{
+    gap: 8px;
+}
+.fx-footer-part1 h4{
+    color: var(--Gray-900, #132238);
+    font-size: 18px;
+    line-height: 32px;
+}
+.fx-footer-part1 span{
+    opacity: 0.5;
+    color: #132238;
+    font-size: 12px;
+}
+footer .footer-container .fx-footer .fx-footer-part2{
+    flex: 1 1 calc(65% - 0px);
+    box-sizing: border-box;
+    max-width:calc(65% - 0px);
+    width: max-content;
+    transition: 0.3s; 
+    cursor: pointer;
+    margin-top: 3.5rem;
+    display: flex;
+    gap: 25px;
+}
+footer .footer-container .fx-footer .fx-footer-part2 .links-footer{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    flex: 1 1 calc(30% - 0px);
+    box-sizing: border-box;
+    max-width:calc(30% - 0px);
+    width: max-content;
+    transition: 0.3s; 
+    cursor: pointer;
+}
+footer .footer-container .fx-footer .fx-footer-part2 h5{
+    color: #0F2137;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    margin-bottom: 30px;
+}
+footer .footer-container .fx-footer .fx-footer-part2 a{
+    color: #02073E;
+    font-size: 14px;
+    line-height: 250%;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: max-content;
+    transition: 0.3s;
+}
+footer .footer-container .fx-footer .fx-footer-part2 a:hover{
+    transform: scale(1.1);
+}
+footer .Copyright{
+    padding: 0 89px;
+    height: 63px;
+    background:  #472667;
+    color: #fff;
+}
+footer .Copyright .Copyright-part1{
+    gap: 30px;
+}
+footer .Copyright p{
+    text-align: justify;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    margin-bottom: 0px;
+}
+footer .Copyright .Copyright-part2 h6{
+    font-size: 20px;
+    line-height: 28px;
+    padding-right:30px;
+    margin-bottom: 0px;
+}
+footer .Copyright .Copyright-part2 .Copyright-part2-imgs{
+    gap: 10px;
+}
+footer .Copyright .Copyright-part2 .Copyright-part2-imgs img{
+    transition: 0.3s;
+}
+footer .Copyright .Copyright-part2 .Copyright-part2-imgs img:hover{
+    transform: scale(1.1);
+}
+@media (max-width:1400px) {
+    
+}
+@media (max-width:1300px) {
+    footer .footer-container .fx-footer{
+        gap: 60px;
+    }
+    footer .Copyright{padding: 0 50px;}
+ }
+@media (max-width:1150px) {
+       footer .footer-container .fx-footer{
+        flex-direction: column;
+    }
+    footer .footer-container .fx-footer .fx-footer-part1{
+    flex: 1 1 calc(100% - 1px);
+    max-width: calc(100% - 0px);
+}
+    footer .footer-container .fx-footer .fx-footer-part2{
+        flex: 1 1 calc(100% - 0px);
+        max-width:calc(100% - 0px);
+        gap: 25px;
+        margin-top: 0px;
+        width: 100%;
+    }
+    footer .footer-container .fx-footer .fx-footer-part2 .links-footer{
+        flex: 1 1 calc(25% - 0px);
+        max-width:calc(25% - 0px);
+    }
+}
+@media (max-width:1000px) {
+    footer .footer-container{
+        padding: 50px 20px;
+    }
+}
+@media (max-width:750px) {
+    footer .footer-container .fx-footer{
+        gap: 32px;
+    }
+    footer .footer-container .fx-footer .fx-footer-part2 .links-footer{
+        flex: 1 1 calc(50% - 0px);
+        max-width:calc(50% - 0px);
+    }
+    footer .footer-container .fx-footer .fx-footer-part2{
+        flex-direction: column;
+    }
+    footer .footer-container .fx-footer .fx-footer-part2 h5{margin-bottom: 16px;font-weight: bold;}
+    footer .footer-container .fx-footer .fx-footer-part2 a{margin-bottom: 0px;}
+    footer .Copyright{
+        padding:20px;
+        height: 100%;
+        flex-direction: column;
+    }
+    footer .Copyright .Copyright-part1{flex-direction: column;}
+}
