@@ -555,6 +555,14 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
     margin-top: 40px;
     margin-bottom: 11px;
 }
+.our-development .fx-our-development .box-our-development p{
+    font-size: 19px;
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .our-development .fx-our-development .box-our-development .div-img{
     background: #fff;
     border-radius: 50%;
@@ -598,6 +606,10 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
     }
     .our-development .fx-our-development .box-our-development h5{margin-top: 24px;}
     .our-development .fx-our-development .box-our-development .div-img{padding: 50px;}
+    .our-development .fx-our-development .box-our-development p{
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
 /* Page Industries */
 .section-countries-margin{margin-bottom: 8rem;}
