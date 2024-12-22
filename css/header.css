@@ -264,14 +264,14 @@ nav, .hamburger, .coverNav {
   margin-bottom: 30px;
 }
 #header .links-navbar .list-menu-link .code-slider .slide-nav p{
-  font-size: 18px;
-  line-height: 31px;
+  font-size: 17px;
+  line-height: 24px;
   margin-bottom: 0;
 }
 #header .links-navbar .list-menu-link .links-list{
   flex-wrap: wrap;
   gap: 16px;
-  padding: 50px 40px;
+  padding: 30px 40px;
   width: 65%;
   background: #FFF;
 }
@@ -296,7 +296,7 @@ nav, .hamburger, .coverNav {
   font-size: 14px;
   font-weight: 200;
   text-decoration: none;
-  line-height: 250%;
+  line-height: 26px;
 }
 #header .links-navbar .list-menu-link .links-list .flex-links-list a:hover{
   transform: scale(1.03);
