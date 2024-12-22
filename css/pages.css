@@ -1,10 +1,4 @@
 .section-header{
-background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
-    ), 
-    url('../images/Contact-page.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,6 +9,94 @@ background-image:
     flex-direction: column;
     color: #FFF;
     padding-top: 3rem;
+}
+.section-contact-background{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Contact-page.png');
+}
+.section-header-services{
+       background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Services-page.png');
+}
+.section-header-industries{
+       background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Industries-page\ \(2\).png');
+}
+.section-header-industries2{
+           background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Industries-page.png');
+}
+.section-header-blog{
+           background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/blog-page.png');
+}
+.section-header-corporate{
+           background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Corporate-page.png');
+}
+.section-header-testimonials{
+           background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Testimonials-page.png');
+}
+.section-header-careers{
+           background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Careers-page.png');
+}
+.section-header-CaseStudies{
+           background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Case-Studies.png');
+}
+.section-header-privacyPolicy{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/Privacy-policy.png');
+}
+.section-header-company{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), 
+    url('../images/about-company.png');
 }
 .section-header h1{
     font-size: 130px;
@@ -636,8 +718,8 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
     gap: 1rem;
 }
 .details-Industries .fx-details-Industries .box-detail-Industry img{
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
 }
 .details-Industries .fx-details-Industries .box-detail-Industry h2{
@@ -683,6 +765,12 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
     .details-Industries .fx-details-Industries .box-detail-Industry img{
         width: 100px;
         height: 100px;
+    }
+}
+@media (min-width:1710px) {
+    .details-Industries .fx-details-Industries .box-detail-Industry img{
+        width: 140px;
+        height: 140px;
     }
 }
 /* section redefine business  */
