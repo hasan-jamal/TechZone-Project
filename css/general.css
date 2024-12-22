@@ -268,7 +268,7 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
   flex-direction: column;
 }
 .box-blog img{
-  height: 313px;
+  height: 270px;
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
