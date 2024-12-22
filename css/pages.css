@@ -949,7 +949,7 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
 }
 /* Page Blog */
 .tabs-blog{
-    padding:50px 90px;
+    padding:30px 90px;
     background:#472667;
     width: 100%;
     display: flex;
@@ -962,7 +962,7 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
 }
 .tabs-blog button{
     padding:.5rem 1rem;
-    font-size: 23px;
+    font-size: 21px;
     background: none;
     color: #fff;
 }
