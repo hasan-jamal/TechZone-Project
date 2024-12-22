@@ -233,8 +233,14 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .section-redefine-business .fx-sections-redefine{
     gap: 26px;
 }
+.section-redefine-business .fx-sections-redefine .box-slider-services{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 .section-redefine-business .fx-sections-redefine .fx-section1,
-.section-redefine-business .fx-sections-redefine .fx-section2{
+.section-redefine-business .fx-sections-redefine .fx-section2-width{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -247,6 +253,8 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .section-redefine-business .fx-sections-redefine .fx-section2{
     gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .section-redefine-business .fx-sections-redefine  .part1{
     margin-top: 2.5rem;
@@ -298,7 +306,9 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     .section-redefine-business .fx-sections-redefine{
         flex-direction: column;
     }
-       .section-redefine-business .fx-sections-redefine .fx-section1, .section-redefine-business .fx-sections-redefine .fx-section2{
+       .section-redefine-business .fx-sections-redefine .fx-section1,
+       .section-redefine-business .fx-sections-redefine .box-slider-services,
+       .section-redefine-business .fx-sections-redefine .fx-section2-width{
         width: 100%;
     }
 }
@@ -1352,4 +1362,20 @@ padding: 0 250px;
         padding: 0 20px;
     }
     .section-FAQ h1{font-size: 40px;}
+}
+/* Slider Services */
+ .slider-services-dots {
+    text-align: center;
+}
+.slider-services-dots div {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 0px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider-services-dots .active {
+    background-color: rgba(203, 31, 73, 1);
 }
