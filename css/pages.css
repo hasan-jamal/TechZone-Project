@@ -607,7 +607,7 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
     padding:60px 55px 100px 55px ;
 }
 .our-development h1{
-   font-size: 60px;
+   font-size: 50px;
     line-height: normal;
 }
 .our-development .font-OpenSans{width: 65%;margin: auto;}
@@ -654,6 +654,9 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
     width: 76px;
     height: 76px;
     object-fit: contain;
+}
+@media (min-width:1710px) {
+    .our-development h1{font-size: 60px; }
 }
 @media (max-width:1300px) {
     .our-development .fx-our-development .box-our-development{
@@ -1125,10 +1128,13 @@ main .section-boxs-website2 .fx-boxs-website .box-detail-website:hover{
 .section-speak-general .fx-speak-general .box-move button{margin-top: 3rem;}
 .section-speak-general .speak-general-texts h1{
     color: #472667;
-    font-size: 60px;
+    font-size: 50px;
 }
 .section-speak-general .speak-general-texts p{
     font-size: 20px;
+}
+@media (min-width:1710px) {
+    .section-speak-general .speak-general-texts h1{font-size: 60px; }
 }
 @media (max-width:1300px) {
     .section-speak-general .speak-general-texts h1{font-size: 45px;}
@@ -1159,7 +1165,7 @@ main .section-boxs-website2 .fx-boxs-website .box-detail-website:hover{
 .section-team-container{padding: 0 89px;}
 .section-team h1{
     color: #472667;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 .section-team p{
@@ -1219,6 +1225,9 @@ main .section-boxs-website2 .fx-boxs-website .box-detail-website:hover{
     color: #fff;
     font-size: 14px;
 }
+@media (min-width:1710px) {
+    .section-team h1{font-size: 60px; }
+}
 @media (max-width:1400px) {
     .section-team .fx-section-team .box-detail-person{
         flex: 1 1 calc(40% - 48px);
@@ -1250,7 +1259,7 @@ main .section-competitive-advantage2 .section-competitive-advantage-container{
     padding: 0 89px;
 }
 main .section-competitive-advantage2 .section-competitive-advantage-container h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 main .section-competitive-advantage2 .fx-competitive-advantage2{
     flex-wrap: wrap;
@@ -1263,6 +1272,9 @@ main .section-competitive-advantage2 .fx-competitive-advantage2 .slide-backgroun
     width: max-content;
     transition: 0.3s; 
     cursor: pointer;
+}
+@media (min-width:1710px) {
+    main .section-competitive-advantage2 .section-competitive-advantage-container h1{font-size: 60px; }
 }
 @media (max-width:1150px) {
     main .section-competitive-advantage2 .section-competitive-advantage-container{
@@ -1293,7 +1305,7 @@ main .section-competitive-advantage2 .fx-competitive-advantage2 .slide-backgroun
     padding-bottom: 13rem;
 }
 .section-benefits h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 .section-benefits .fx-section-benefits .section-benefits-part1{
     position: relative;
@@ -1341,6 +1353,9 @@ main .section-competitive-advantage2 .fx-competitive-advantage2 .slide-backgroun
     border-radius: 8px;
 }
 .section-benefits .fx-countries-part2 .slider-countries-dots{margin-top: 1rem;}
+@media (min-width:1710px) {
+    .section-benefits h1{font-size: 60px; }
+}
 @media (max-width:1400px) {
     .section-benefits .fx-countries-part2 .slide img{
         width: 530px;
@@ -1392,7 +1407,7 @@ main .section-competitive-advantage2 .fx-competitive-advantage2 .slide-backgroun
 /* Section Video */
 .section-video h1{
     color: #472667;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 .section-video p{
@@ -1425,6 +1440,9 @@ main .section-competitive-advantage2 .fx-competitive-advantage2 .slide-backgroun
     cursor: pointer;
     position: relative;
     z-index: 1;
+}
+@media (min-width:1710px) {
+    .section-video h1{font-size: 60px; }
 }
 @media (max-width:1150px) {
     .section-video h1{

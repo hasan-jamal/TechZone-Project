@@ -164,15 +164,16 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
   z-index: 1;
 }
 .subtitle-one{
+  margin-top: 1rem;
     color: #472667;
-    font-size: 25px;
-    line-height: 57px;
+    font-size: 23px;
+    line-height: normal;
     letter-spacing: -1px;
 }
 .subtitle-two{
   color: #000;
-  font-size: 19px;
-  line-height: 35px;
+    font-size: 17px;
+    line-height: 30px;
 }
 @media (max-width:1150px) {
     .sec1-services-page-container{width: 80%;}
@@ -191,6 +192,16 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
         line-height: 45px;
     }
       .subtitle-one{line-height: 50px;font-size: 30px; margin-bottom: 2rem !important;}
+}
+@media (min-width:1710px) {
+  .subtitle-one{
+      font-size: 25px;
+      line-height: 57px;
+  }
+    .subtitle-two {
+      font-size: 19px;
+      line-height: 35px;
+    }
 }
 .box-move-row{ 
   border-radius: 8px;
