@@ -350,6 +350,7 @@ nav, .hamburger, .coverNav {
       font-size: 16px;
       line-height: 25px;
     }
+    #header .section2-navbar .links-navbar .link{font-size: 14px;font-weight: 600;}
 }
 @media (max-width:1150px) {
    .navbar-mobile{display: block;} 

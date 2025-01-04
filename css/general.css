@@ -68,7 +68,7 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
   border: 2px solid #472667;
   display: flex;
   padding: 0px 32px;
-  height: 58px;
+  height: 52px;
   align-items: center;
   justify-content: center;
   color:  #472667;
@@ -86,7 +86,7 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
 .button-red{
   border-radius: 8px;
   background: #CB1F49;
-  padding: 20px 32px;
+  padding: 13px 28px;
   color:  #FFF;
   font-family: "DM Sans";
   font-weight: 700;
@@ -131,7 +131,12 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
   font-style: normal;
   font-weight: 600;
   line-height: 30px; 
-  white-space: pre-line;
+}
+@media (max-width:1300px) {
+  .subHeader-p{
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 .font-red{color: #CB1F49;text-transform: uppercase;}
 .font-red-capitalize{color: #CB1F49;text-transform: capitalize;}
@@ -213,6 +218,7 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
   color: #FFF;
   font-size: 30px;
 }
+.box-move-row button{white-space: pre;}
 .box-move{
   border-radius: 8px;
   background: #472667;
@@ -332,6 +338,11 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
     padding: 17px 24px;
     font-size: 14px;
   }
+    .btn-move,
+    .button-red{
+      font-size: 15px;
+      height: 48px;
+    }
 }
 @media (max-width:1150px) {
      .button-red {
@@ -339,10 +350,9 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
         font-size: 12px;
         letter-spacing: 1px;
     }
-    .box-move{padding: 20px;}
-}
-@media (max-width:1150px) {
-
+    .box-move{
+      padding: 20px;
+    }
 }
 @media (max-width:1000px) {
   .btn-move,
