@@ -119,6 +119,47 @@
     ), 
     url('../images/products.png'); 
 }
+main .section-service-details2  h1{
+    font-size: 85px;
+}
+main .section-service-details2 p{
+    font-size: 24px;
+    white-space: normal;
+}
+@media (min-width:1700px) {
+    main .section-service-details2 p{
+        font-size: 24px;
+        white-space: normal;
+        width: 45%;
+    }
+}
+@media (max-width:1396.36px) {
+    main .section-service-details2  h1{
+        font-size: 75px;
+    }
+}
+@media (max-width:1228.8px) {
+    main .section-service-details2  h1{
+        font-size: 70px;
+    }
+    main .section-service-details2 p{line-height: normal;font-size: 20px;}
+}
+@media (max-width:1024px) {
+    main .section-service-details2  h1{
+        font-size: 60px;
+    }
+}
+@media (max-width:877.7px) {
+    main .section-service-details2  h1{
+        font-size: 50px;
+    }
+}
+@media (max-width:768px) {
+    main .section-service-details2  h1{
+        font-size: 40px;
+    }
+    main .section-service-details2 p{font-size: 18px;}
+}
 .section-header-products button{
     margin-top: 40px;
 }

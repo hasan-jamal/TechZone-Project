@@ -431,6 +431,11 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         .section-redefine-business .fx-sections-redefine .fx-section2{
         flex-direction: column;
     }
+    .section-redefine-business  .box-slider-services  .fx-section2 .fx-slide-flex .part{
+        flex: 1 1 calc(100% - 24px);
+        box-sizing: border-box;
+        max-width: calc(100% - 0px);
+    }
     .section-redefine-business .fx-sections-redefine .fx-section-st .d-flex{flex-direction: column;}
 }
 /* Section Industry */
@@ -1220,6 +1225,11 @@ background: rgba(93, 67, 119, 0.4);
 @media (min-width:1700px) {
     .section-competitive-advantage .slide-background{
         height: 750px;
+    }
+}
+@media (max-width:768px) {
+    .section-competitive-advantage .slide-background{
+        height: 300px;
     }
 }
 /* Section Items */
