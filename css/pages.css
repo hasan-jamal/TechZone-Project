@@ -13,94 +13,118 @@
 .section-contact-background{
     background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Contact-page.png');
 }
 .section-header-services{
     background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-       rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Services-page.png');
 }
 .section-header-industries{
        background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Industries-page\ \(2\).png');
 }
 .section-header-industries2{
            background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Industries-page.png');
 }
 .section-header-blog{
            background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/blog-page.png');
+       min-height: 80vh;
 }
 .section-header-corporate{
            background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Corporate-page.png');
 }
 .section-header-testimonials{
            background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Testimonials-page.png');
 }
 .section-header-careers{
            background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Careers-page.png');
 }
 .section-header-CaseStudies{
            background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Case-Studies.png');
 }
 .section-header-privacyPolicy{
     background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+        rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/Privacy-policy.png');
 }
 .section-header-company{
     background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
+         rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
     ), 
     url('../images/about-company.png');
 }
+.section-header-products{
+       background-image: 
+    linear-gradient(
+      rgba(0, 0, 0,0.7), 
+      rgba(0, 0, 0,0.4),
+      rgba(0, 0, 0,0.1)
+    ), 
+    url('../images/products.png'); 
+}
+.section-header-products button{
+    margin-top: 40px;
+}
 .section-header h1{
-    font-size: 130px;
+    font-size: 150px;
+    text-transform: uppercase;
 }
 .section-header .logo-header{
     width: 50rem;
@@ -148,7 +172,7 @@
     .section-header p{ font-size: 17px;line-height: 25px;}
 }
 @media (max-width:1000px) {
-    .section-header h1{font-size: 50px;}
+    .section-header h1{font-size: 65px;}
     .section-header p{ font-size: 16px;line-height: 24px;}
     .section-header .section-header-detail h2{
         font-size: 42px;
@@ -166,9 +190,12 @@
         height: 40px;
     }
 }
+@media (max-width:1000px) {
+    .section-header p{font-size: 18px;white-space: normal;}
+    .section-header p br{display: none;}
+}
 @media (max-width:750px) {
     .section-header{min-height: 60vh;}
-    .section-header h1{font-size: 45px;}
     .section-header p{ font-size: 15px;width: 90%;white-space: normal;font-weight: 500;}
 }
 @media (min-width:1700px) {
@@ -724,8 +751,11 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
 .details-Industries .fx-details-Industries .box-detail-Industry:hover{
     background-color: #472667;
 }
+.details-Industries .fx-details-Industries .box-detail-Industry:hover img{
+    filter: brightness(0) invert(1);
+}
 .details-Industries .fx-details-Industries .box-detail-Industry:hover .subtitle-one,
-.details-Industries .fx-details-Industries .box-detail-Industry:hover .subtitle-two{
+.details-Industries .fx-details-Industries .box-detail-Industry:hover p{
     color: #fff;
 }
 .details-Industries .fx-details-Industries .box-detail-Industry img{
@@ -886,6 +916,13 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
 .section-texts .fx-section-texts .section-texts-public{
     width: 70%;
 }
+.section-texts-public figure{width: 100%;}
+.section-texts-public figure img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
 .section-texts .fx-section-texts .section-texts-public .img-center{
     margin: auto;
     width: 100%;
@@ -896,6 +933,7 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
 .section-texts .fx-section-texts .div-line{
     width: 1px;
     background: #000;
+    opacity: 0.3;
 }
 .section-texts .fx-section-texts h3{
     color:#472667;
@@ -1481,4 +1519,167 @@ main .section-competitive-advantage2 .fx-competitive-advantage2 .slide-backgroun
     .section-video h1{
         font-size: 36px;
     }
+}
+/* Section Portfolio */
+.section-portfolio{
+    background: #CB1F49;
+    color: #FFF;
+    position: relative;
+    padding: 30vh 0 25vh 0;
+}
+.section-portfolio .slide-portfolio {
+    display: none;
+    opacity: 0;
+    transition: opacity0.5s ease-in-out;
+}
+/* Show the active slide */
+.slide-portfolio.active {
+    display: block;
+    opacity: 1;
+}
+/* Fade-in animation */
+.fade-in {
+    animation: fadeIn0.5s ease-in-out;
+}
+.section-portfolio .btn-white{
+    border: 0;
+    color: #CB1F49;
+    text-transform: uppercase;
+}
+.section-portfolio .slide-portfolio h1{
+    font-size: 60px;
+    margin-bottom: 34px;
+}
+.section-portfolio .slide-portfolio p{
+    font-size:40px;
+    margin-bottom: 42px;
+}
+.section-portfolio .fx-slide-portfolio{
+    gap: 13px;
+    padding-left: 135px;
+    align-items: center;
+}
+.section-portfolio .fx-slide-portfolio .slide-portfolio-texts{width: 60%;}
+.section-portfolio .fx-slide-portfolio .slide-portfolio-img{
+    width: 40%;
+}
+.section-portfolio .fx-slide-portfolio .slide-portfolio-img img{
+    overflow: hidden;
+    width: -webkit-fill-available;
+    margin-right: -5rem;
+}
+.section-portfolio .slider-portfolio-dots{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 3%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    cursor: pointer;
+}
+
+.section-portfolio .slider-portfolio-dots .dot{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.section-portfolio .slider-portfolio-dots .style-dot{
+    background: #fff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 2px;
+}
+.section-portfolio .slider-portfolio-dots span{
+    font-size: 1rem;
+    display: none;
+    letter-spacing: 2px;
+}
+.section-portfolio .slider-portfolio-dots .active span{display: block;}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Active dot styling */
+.slider-portfolio-dots .dot.active .style-dot {
+    width: 20px;
+    height: 20px;
+        left: 0px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+@media (max-width:1396.36px) {
+    
+}
+@media (max-width:1228.8px) {
+    .section-portfolio .slide-portfolio h1{font-size: 50px;}
+    .section-portfolio .slide-portfolio p{font-size:35px;}
+    .section-portfolio{padding: 35vh 0 25vh 0;}
+}
+@media (max-width:1024px) {
+    .section-portfolio .slide-portfolio p{font-size: 25px;}
+    .section-portfolio .slide-portfolio h1{font-size: 50px;}
+        .section-portfolio{padding: 45vh 0 25vh 0;}
+}
+@media (max-width:877.71px) {
+    .section-portfolio{padding: 35vh 0 25vh 0;}
+    .section-portfolio .fx-slide-portfolio{flex-direction: column;padding: 0 0px 0 20px;gap: 40px;}
+    .section-portfolio .fx-slide-portfolio .slide-portfolio-texts{width: 100%;}
+    .section-portfolio .fx-slide-portfolio .slide-portfolio-img{width: 100%;}
+    .section-portfolio .fx-slide-portfolio .slide-portfolio-img img{
+        margin-right: 0px;
+        width: 100%;
+    }
+    .section-portfolio .slide-portfolio h1,
+    .section-portfolio .slide-portfolio p{margin-bottom: 24px;}
+    .section-portfolio .slider-portfolio-dots{
+        flex-direction: row;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%,0%);
+        margin-top: 24px;
+        justify-content: center;
+    }
+    .section-portfolio .slide-portfolio p{font-size: 19px;}
+    .section-portfolio .slide-portfolio h1{font-size: 35px;}
+}
+@media (max-width:768px) {
+        .section-portfolio{padding: 40vh 0 25vh 0;}
+}
+@media (max-width:614.4px) {
+        .section-portfolio{padding:24vh 0 25vh 0;}
+}
+/* Page Products */
+main .sec1-products-page-container{
+    width: 85%;
+}
+.sec1-services-page .products-boxs{gap: 40px;align-items: normal;}
+.sec1-services-page .products-boxs .service-box{
+    flex: 1 1 calc(33.3% - 40px);
+    max-width: calc(33.3% - 0px);
+}
+.sec1-services-page .products-boxs .service-box h4{
+    text-decoration: underline;
+}
+@media (max-width:1228.8px) {
+.sec1-services-page .products-boxs .service-box p{line-height: 28px;font-size: 16px;}
+}
+@media (max-width:1024px) {
+    .sec1-services-page .products-boxs .service-box{
+        flex: 1 1 calc(50% - 40px);
+        max-width: calc(50% - 0px);
+    }
+}
+@media (max-width:768px) {
+    .sec1-services-page .products-boxs .service-box{
+        flex: 1 1 calc(100% - 40px);
+        max-width: calc(100% - 0px);
+    }
+    main .sec1-products-page-container{width: 100%;}
 }

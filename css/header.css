@@ -194,13 +194,13 @@ nav, .hamburger, .coverNav {
 .section2-navbar .box-link{
 }
 #header .links-navbar .list-menu-link{
-    position: absolute;
-    z-index: 15;
-    right: 5%;
-    border-radius: 10px;
+  position: absolute;
+  z-index: 15;
+   right: 3%;
+  border-radius: 10px;
   margin: auto;
-    width: 80%;
-     opacity: 0; 
+  width: 93%;
+  opacity: 0; 
   visibility: hidden; 
   transform: translateY(10px); 
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -215,7 +215,7 @@ nav, .hamburger, .coverNav {
   position: relative;
 }
 #header .links-navbar .list-menu-link .code-slider .slider-link{
-  height: 100%;
+  height: 500px;
   overflow: hidden;
 }
 #header .links-navbar .list-menu-link .code-slider .slider-link-dots {
@@ -258,15 +258,15 @@ nav, .hamburger, .coverNav {
      opacity: 1;
 }
 #header .links-navbar .list-menu-link .code-slider .slide-nav h1{
-  font-size: 42px;
+  font-size: 45px;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 #header .links-navbar .list-menu-link .code-slider .slide-nav p{
-  font-size: 17px;
-  line-height: 24px;
   margin-bottom: 0;
+      font-size: 20px;
+    line-height: 29px;
 }
 #header .links-navbar .list-menu-link .links-list{
   flex-wrap: wrap;
@@ -287,13 +287,13 @@ nav, .hamburger, .coverNav {
 #header .links-navbar .list-menu-link .links-list .flex-links-list h4{
    margin-bottom: 4px;
    color: #0F2137;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.5px;
 }
 #header .links-navbar .list-menu-link .links-list .flex-links-list a{
   color: #02073E;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 200;
   text-decoration: none;
   line-height: 26px;
@@ -307,9 +307,12 @@ nav, .hamburger, .coverNav {
 #header .links-navbar #services-list .links-list .flex-links-list a:hover{
   transform: scale(1.06);
 }
-#header .links-navbar .list-menu-link .section-Industries-boxs{width: 65%;}
+#header .links-navbar .list-menu-link .section-Industries-boxs{
+  width: 65%;
+  height: 100%;
+  }
 #header .links-navbar .list-menu-link .section-Industries-boxs .Industry-box{
-  height: 160px;
+  height: 167px;
   padding: 0 8px;
 }
 #header .links-navbar .list-menu-link .section-Industries-boxs .Industry-box img{

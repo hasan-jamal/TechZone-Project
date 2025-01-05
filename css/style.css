@@ -247,6 +247,36 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     flex-direction: column;
     gap: 16px;
 }
+.section-redefine-business  .box-slider-services  .fx-section2{
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 0;
+}
+.section-redefine-business .box-slider-services  .fx-section2 .fx-slide-flex{
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+}
+.section-redefine-business  .box-slider-services  .fx-section2 .fx-slide-flex .part{
+    flex: 1 1 calc(50% - 24px);
+    box-sizing: border-box;
+    max-width: calc(50% - 0px);
+    width: max-content;
+    transition: 0.3s; 
+    text-decoration: none;
+    cursor: pointer;
+}
+.section-redefine-business .fx-section2 .fx-slide-flex .part p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+.section-redefine-business .fx-section2 .fx-slide-flex .part h4{
+    font-size: 21px;
+}
 .section-redefine-business .fx-sections-redefine .fx-section1,
 .section-redefine-business .fx-sections-redefine .fx-section2-width{
     width: 50%;
@@ -256,6 +286,17 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .section-redefine-business .fx-sections-redefine .fx-section1{
     gap: 30px;
 }
+.section-redefine-business .fx-sections-redefine .fx-section1 p,
+.section-redefine-business .fx-sections-redefine .fx-section1 span{
+    font-family: 'Open Sans';
+}
+.section-redefine-business .fx-sections-redefine .fx-section1  div span{
+        font-family: 'DM Sans';
+       font-weight: 600;
+       line-height: normal;
+        margin-bottom: 0px;
+        font-size: 36px;
+}
 .section-redefine-business .fx-sections-redefine .fx-section1 p{
     display: block;
 }
@@ -263,6 +304,15 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     gap: 20px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+.section-redefine-business .fx-sections-redefine .fx-section2 .part{
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    max-width: calc(50% - 0px);
+    width: max-content;
+    transition: 0.3s; 
+    cursor: pointer;
 }
 .section-redefine-business .fx-sections-redefine  .part1{
     margin-top: 2.5rem;
@@ -302,7 +352,9 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     flex-direction: row;
     width: 100%;
 }
-.section-redefine-business .fx-sections-redefine .fx-section-st .flex-column{gap: 24px;}
+.section-redefine-business .fx-sections-redefine .fx-section-st .d-flex{
+    gap: 24px;
+}
 @media (max-width:1400px) {
     .section-redefine-business .fx-sections-redefine .part1{
         margin-top: 0px;
@@ -316,7 +368,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
        .section-redefine-business .fx-sections-redefine .fx-section1,
        .section-redefine-business .fx-sections-redefine .box-slider-services,
        .section-redefine-business .fx-sections-redefine .fx-section2-width{
-        width: 100%;
+        width: 50%;
     }
     .section-redefine-business-container {
         padding: 100px 50px;
@@ -330,9 +382,10 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         line-height: 30px;
         font-size: 20px;
     }
-    .section-redefine-business .fx-sections-redefine h3{font-size: 32px;}
+   .section-redefine-business .fx-sections-redefine .fx-section1  div span{font-size: 32px;}
     .section-redefine-business .fx-sections-redefine h3 br{display: none;}
 }
+
 @media (min-width:1710px) {
     .section-redefine-business .fx-sections-redefine p{
         font-size: 20px;
@@ -341,11 +394,20 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         line-height: 57px; 
         font-size: 25px;
     }
-    .section-redefine-business .fx-sections-redefine h3{font-size: 40px;}
+   .section-redefine-business .fx-sections-redefine .fx-section1  div span{font-size: 40px;}
+ 
 }@media (max-width:1150px) {
    .section-redefine-business .fx-sections-redefine{
         flex-direction: column;
     }
+    .section-redefine-business .fx-sections-redefine{flex-direction: column;}
+    .section-redefine-business .fx-sections-redefine .fx-section1,
+    .section-redefine-business .fx-sections-redefine .fx-section-st,
+    .section-redefine-business .fx-sections-redefine .box-slider-services,
+    .section-redefine-business .fx-sections-redefine .fx-section2-width{
+        width: 100%;
+    }
+    .section-redefine-business .fx-sections-redefine .fx-section2{flex-direction: row;}
 }
 @media (max-width:1000px) {
  
@@ -360,12 +422,16 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         line-height: 26px;
     }
     .section-redefine-business .fx-sections-redefine .part1{margin-top: 0px;}
-    .section-redefine-business .fx-sections-redefine h3{font-size: 28px;}
-    .section-redefine-business .fx-sections-redefine .fx-section2{
-        flex-direction: column;
-    }
+   .section-redefine-business .fx-sections-redefine .fx-section1  div span{font-size: 28px;}
     .section-redefine-business .fx-sections-redefine h4{line-height: normal;}
     .section-redefine-business .fx-sections-redefine h3 br{display: none;}
+}
+@media (max-width:700px) {
+    .section-redefine-business .fx-sections-redefine h3{font-size: 28px;}
+        .section-redefine-business .fx-sections-redefine .fx-section2{
+        flex-direction: column;
+    }
+    .section-redefine-business .fx-sections-redefine .fx-section-st .d-flex{flex-direction: column;}
 }
 /* Section Industry */
 .section-industry{
@@ -623,6 +689,8 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .section-innovative-projects h1{
     margin-bottom: 35px;
+    width: 65%;
+    margin:0px auto 16px auto;
 }
 .section-innovative-projects .line-red{
     width: 145px;
@@ -715,11 +783,13 @@ background: rgba(93, 67, 119, 0.4);
     .section-innovative-projects .innovative-projects-tabs {
         padding-left: 50px;
     }
+    .section-innovative-projects h1{width: 75%;}
 }
 @media (max-width:1300px) {
     .section-innovative-projects .innovative-projects-content .contant-tab{
         padding: 20px;
     }
+        .section-innovative-projects h1{width: 80%;font-size: 35px;}
 }
 @media (max-width:1150px) {
     .section-innovative-projects .innovative-projects-content .fx-box-content{
@@ -727,6 +797,7 @@ background: rgba(93, 67, 119, 0.4);
         align-items: start;
         gap: 16px;
     }
+     .section-innovative-projects h1{font-size: 30px;}
     .section-innovative-projects .innovative-projects-content .fx-box-content{
         flex-direction: column;
         align-items: start;
@@ -765,6 +836,10 @@ background: rgba(93, 67, 119, 0.4);
     .section-innovative-projects .innovative-projects-content .fx-box-content img{width: 100%;}
     .section-innovative-projects .font-OpenSans{padding: 0 20px;}
     .section-innovative-projects .font-OpenSans br{display: none;}
+     .section-innovative-projects h1{font-size: 25px;}
+}
+@media (max-width:700px) {
+         .section-innovative-projects h1{width: 100%;font-size: 28px;}
 }
 @media (min-width:1700px) {
     .section-innovative-projects .innovative-projects-content .contant-tab p{
@@ -1085,7 +1160,7 @@ background: rgba(93, 67, 119, 0.4);
 }
 .section-competitive-advantage .slide-background{
     width: 100%;
-    height: 585px;
+    height: 500px;
     background-size: cover !important;
     background-position:center !important;
     background-repeat: no-repeat !important;
