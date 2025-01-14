@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    <div id="coverBack"></div>
     <div class="navbar-mobile">
         <div class="coverNav" onclick="toggleSidenav();">
             <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
@@ -63,7 +64,7 @@
                 </div>
         </nav>
     </div>
-    <header id="header">
+    <header id="header" class="header">
         <div class="d-flex justify-content-between fx-style-header">
             <div class="section1-navbar">
                 <a href="./index.html"><img src="./images/logo.svg" alt="logo image"></a>
@@ -329,7 +330,8 @@
                     </div>
                     <a href="./blog.html" class="link">Blog</a>
                     <a href="" class="link">+252 61 8601212</a>
-                    <button class="btn-section2-navbar " onclick="window.location.href='./contact.html'">
+                    <button class="btn-section2-navbar " id="btn-navbar"
+                        onclick="window.location.href='./contact.html'">
                         <img src="./images/circle-header.png" alt="circle-header">
                         <span>Free Consultation</span>
                     </button>
@@ -339,13 +341,13 @@
                         <div class="side3"></div>
                     </button>
                     <!-- <div class="list-section2-navbar">
-                    </div> -->
+                        </div> -->
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="section-header section-header-industries">
+        <section class="section-header section-header-industries height-subPages">
             <h1 class="style-font font-bold">Industries</h1>
             <div class="line-red"></div>
             <p class="style-font font-semiBold">TechZone helps accelerate innovation and gratify industry specific best

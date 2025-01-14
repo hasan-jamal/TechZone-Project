@@ -27,8 +27,11 @@
       rgba(0, 0, 0,0.1)
     ), 
     url('../images/Services-page.png');
-        min-height: 90vh;
-        padding-top: 8rem;
+      
+}
+.height-subPages{
+  min-height: 90vh;
+   padding-top: 8rem;
 }
 .section-header-industries{
        background-image: 
@@ -176,16 +179,33 @@ main .section-service-details2 p{
         white-space: normal;
         width: 45%;
     }
+    .height-subPages{min-height: 90vh;padding: 0px;padding-top: 6rem;}
 }
 @media (min-width:1920px) {
     .section-header{
         padding:27vh 0px;
+    }
+    .height-subPages{padding: 0px;padding-top: 8rem;}
+    .height-subPages h1{font-size: 150px;}
+    .section-header p {
+        font-size: 32px;
+        line-height: 46px;
     }
 }
 @media (min-width:2048px) {
     .section-header{
         padding:15vh 0px;
     }
+    .height-subPages{padding: 0px;}
+}
+@media (min-width:3072px) {
+    .height-subPages{min-height: 70vh;}
+}
+@media (min-width:4608px) {
+    .height-subPages{min-height: 50vh;}
+}
+@media (min-width:6144px) {
+    .height-subPages{min-height: 30vh;}
 }
 @media (max-width:1396.36px) {
     main .section-service-details2  h1{
@@ -194,7 +214,7 @@ main .section-service-details2 p{
     .section-header h1{font-size: 120px;}
     .section-header p{ font-size: 22px;}
     .section-header{min-height: 110vh;}
-    .section-header-services{min-height: 90vh;}
+   .height-subPages{min-height: 90vh;}
     .section-header .line-red{margin-bottom: 1rem;}
 }
 @media (max-width:1228.8px) {
@@ -204,7 +224,7 @@ main .section-service-details2 p{
     main .section-service-details2 p{line-height: normal;font-size: 20px;}
     .section-header h1{font-size: 100px;}
     .section-header p{ font-size: 20px;}
-    .section-header-services h1{font-size: 100px;}
+   .height-subPages h1{font-size: 100px;}
 }
 @media (max-width:1024px) {
     main .section-service-details2  h1{
@@ -231,8 +251,8 @@ main .section-service-details2 p{
     .section-header .line-red{ margin-bottom: 1rem;}
     .section-header h1{font-size: 80px;}
     .section-header p{ font-size: 17px;line-height: 25px;}
-    .section-header-services{padding-top: 5rem;}
-        .section-header-services h1{font-size: 100px;}
+   .height-subPages{padding-top: 5rem;}
+       .height-subPages h1{font-size: 100px;}
 }
 @media (max-width:877.7px) {
     main .section-service-details2  h1{
@@ -246,8 +266,8 @@ main .section-service-details2 p{
     main .section-service-details2 p{font-size: 18px;}
     .section-header{min-height: 60vh;}
     .section-header p{ font-size: 15px;width: 90%;white-space: normal;font-weight: 500;}
-    .section-header-services{height: 70vh;}
-    .section-header-services h1 {
+   .height-subPages{height: 70vh;}
+   .height-subPages h1 {
         font-size: 70px;
     }
 }
@@ -1794,6 +1814,21 @@ background: #EBD7FF;
 width: max-content;
 margin: auto;
 }
+@media (min-width:1706.67px) {
+   .section-success{padding: 60px 0;}
+    .section-success h1{font-size: 55px;}
+    .section-success p{font-size: 35px;}
+    .section-success-container{gap: 40px;}
+}
+@media (min-width:1920px) {
+    .section-success{padding: 80px 0;}
+    .section-success h1{font-size: 60px;}
+    .section-success p{font-size: 40px;}
+    .section-success-container{gap: 50px;}
+}
+@media (min-width:2048px) {
+
+}
 @media (max-width:1024px) {
     .section-success p {
         font-size: 26px;
@@ -1836,6 +1871,16 @@ margin: auto;
 }
 .techZone-charter .fx-techZone-charter .img-techZone-charter img{width: 100%;}
 .techZone-charter .fx-techZone-charter{white-space: pre;}
+@media (min-width:1706.67px) {
+    .techZone-charter h1{ width: 60%;}
+}
+@media (min-width:1920px) {
+      .techZone-charter h1{ width: 50%;}
+      .techZone-charter .fx-techZone-charter{width: 80%;}
+}
+@media (min-width:2048px) {
+
+}
 @media (max-width:1228.8px) {
     .techZone-charter .fx-techZone-charter .img-techZone-charter img{width: 110px;}
 }
