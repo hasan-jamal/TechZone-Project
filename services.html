@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    <div id="coverBack"></div>
     <div class="navbar-mobile">
         <div class="coverNav" onclick="toggleSidenav();">
             <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
@@ -63,7 +64,7 @@
                 </div>
         </nav>
     </div>
-    <header id="header">
+    <header id="header" class="header">
         <div class="d-flex justify-content-between fx-style-header">
             <div class="section1-navbar">
                 <a href="./index.html"><img src="./images/logo.svg" alt="logo image"></a>
@@ -97,7 +98,7 @@
                                 </div>
                                 <div class="d-flex links-list">
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Mobile App Development</h4>
+                                        <h4 class="font-bold">Mobile App Development</h4>
                                         <a href="" class="style-font">Android App Development</a>
                                         <a href="" class="style-font">iOS App Development</a>
                                         <a href="" class="style-font">React Native App Development</a>
@@ -105,7 +106,7 @@
                                         <a href="" class="style-font">Augmented Reality / VR</a>
                                     </div>
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Hire Developers</h4>
+                                        <h4 class="font-bold">Hire Developers</h4>
                                         <a href="" class="style-font">Hire Mobile App Developers</a>
                                         <a href="" class="style-font">Hire Android App Developers</a>
                                         <a href="" class="style-font">Hire iOS App Developers</a>
@@ -115,15 +116,15 @@
                                         <a href="" class="style-font">Hire Software Developers</a>
                                     </div>
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Web Development</h4>
+                                        <h4 class="font-bold">Web Development</h4>
                                         <a href="" class="style-font">Ecommerce Development</a>
                                         <a href="" class="style-font">Content Management System (CMS)</a>
                                     </div>
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Software Development</h4>
+                                        <h4 class="font-bold">Software Development</h4>
                                     </div>
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium pre-whiteSpace">Quality Assurance and Testing</h4>
+                                        <h4 class="font-bold pre-whiteSpace">Quality Assurance and Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -144,48 +145,62 @@
                                         </div>
                                         <div class="slide-nav"
                                             style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
-                                            <h1 class="font-bold">Products</h1>
+                                            <h1 class="font-bold">Industries</h1>
                                             <p class="font-semiBold">We deliver highest level of customer service by
                                                 deploying innovative and collaborative project management systems to
-                                                build the most professional, robust and scalable applications.</p>
+                                                build the most professional</p>
                                         </div>
                                     </div>
                                     <div class="slider-link-dots slide-target-dots"></div>
                                 </div>
-                                <div class="d-flex links-list">
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Web Hosting & Domain</h4>
-                                        <a href="" class="style-font">A comprehensive platform offering hosting
-                                            services, domain name registration, and subscription management
-                                            solutions.</a>
+                                <div class="section-Industries-boxs">
+                                    <div class="Industry-box">
+                                        <img src="./images/Automotive.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Automotive</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Healthcare</h4>
-                                        <a href="" class="style-font">A comprehensive platform offering healthcare
-                                            clinic management solutions and patient follow-up features.</a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Real Estate.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Real Estate</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Prime LMS</h4>
-                                        <a href="" class="style-font">A comprehensive e-learning platform offering tools
-                                            for students and parents to track academic progress and complete
-                                            assignments.</a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Entertainment.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Entertainment</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Prime Restaurants</h4>
-                                        <a href="" class="style-font">A comprehensive restaurant management platform
-                                            providing order taking, payment processing, and a wide range of
-                                            additional services.</a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Retail & Ecommerce.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Retail & Ecommerce</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Prime Retail</h4>
-                                        <a href="" class="style-font">A comprehensive retail management system providing
-                                            numerous technical solutions.</a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Healthcare.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Healthcare</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">CPM</h4>
-                                        <a href="" class="style-font">A comprehensive system for managing real estate
-                                            development projects, including cost tracking and progress monitoring.
-                                        </a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Transportation.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Transportation</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Manufacturing.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Manufacturing</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Travel & Tourism.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Travel & Tourism</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Professional Services.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Professional Services</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Software.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Software Vendors</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Banking.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Banking & Finance</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Education.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Education </h6>
                                     </div>
                                 </div>
                             </div>
@@ -329,7 +344,8 @@
                     </div>
                     <a href="./blog.html" class="link">Blog</a>
                     <a href="" class="link">+252 61 8601212</a>
-                    <button class="btn-section2-navbar " onclick="window.location.href='./contact.html'">
+                    <button class="btn-section2-navbar " id="btn-navbar"
+                        onclick="window.location.href='./contact.html'">
                         <img src="./images/circle-header.png" alt="circle-header">
                         <span>Free Consultation</span>
                     </button>
@@ -372,7 +388,8 @@
                     distributed project
                     management capabilities.</p>
                 <button class="btn-move">Consult Our Experts</button>
-                <div class="container-slider-services d-flex flex-column gap-3">
+
+                <!-- <div class="container-slider-services d-flex flex-column gap-3">
                     <div class="slider-services">
                         <div class="slide-service">
                             <div class="d-flex fx-services-boxs align-items-start justify-content-start">
@@ -533,10 +550,60 @@
                         <div></div>
                         <div></div>
                     </div>
-                </div>
-
+                </div> -->
             </div>
         </section>
+        <div class="details-Industries mt-0">
+            <div class="details-Industries-container">
+                <div class="d-flex align-items-normal  justify-content-start fx-details-Industries">
+                    <div class="box-detail-Industry" onclick="">
+                        <img src="./images/Mobile App icon.svg" alt="Mobile App icon">
+                        <h2 class="font-bold subtitle-one mb-0">Mobile App Development</h2>
+                        <p class="mb-0 font-OpenSans subtitle-two">Our mobile application development services
+                            helps you
+                            address
+                            evolving
+                            market challenges by
+                            defining, designing and
+                            building applications tailored to meet your business requirements.</p>
+                    </div>
+                    <div class="box-detail-Industry">
+                        <img src="./images/web-dev-icon.svg" alt="web development icon">
+                        <h2 class="font-bold subtitle-one mb-0">Web Development</h2>
+                        <p class="mb-0 font-OpenSans subtitle-two">Take advantage of our complete range of
+                            cutting-edge and
+                            highly
+                            reliable
+                            custom web
+                            development services to empower your
+                            business to surge ahead of the competition.</p>
+                    </div>
+                    <div class="box-detail-Industry">
+                        <img src="./images/IT-Consulting-Services.svg" alt="IT Consulting Services">
+                        <h2 class="font-bold subtitle-one mb-0">IT Consulting Services</h2>
+                        <p class="mb-0 font-OpenSans subtitle-two">Our cross-industry consulting services help
+                            you craft a
+                            vision for
+                            your
+                            organization and then
+                            provide a practical
+                            business and technology framework that will make that vision a reality.</p>
+                    </div>
+                    <div class="box-detail-Industry">
+                        <img src="./images/Software-Development.svg" alt="Software Development">
+                        <h2 class="font-bold subtitle-one mb-0">Software Development</h2>
+                        <p class="mb-0 font-OpenSans subtitle-two">TechZone cross-industry, offshore software
+                            development
+                            services help
+                            you
+                            craft a vision for
+                            your organization and then
+                            implement a result-oriented technology framework that will turn that vision into
+                            reality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section class="section-countries">
             <div class="section-countries-container">
                 <h1 class="style-font font-semiBold">Why do customers in over <span class="font-red">50+</span>

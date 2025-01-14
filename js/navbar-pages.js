@@ -17,15 +17,20 @@ document.querySelectorAll(".box-link").forEach((boxLink) => {
   const link = boxLink.querySelector(".link");
   const targetId = link.getAttribute("data-target");
   const list = document.getElementById(targetId);
+  const divCoverBack = document.getElementById("coverBack");
 
   if (list) {
     const showList = () => list.classList.add("active");
+    const showCoverBack = () => divCoverBack.classList.add("coverBack");
 
     const hideList = () => list.classList.remove("active");
-
+    const hideCoverBack = () => divCoverBack.classList.remove("coverBack");
     boxLink.addEventListener("mouseenter", showList);
+    boxLink.addEventListener("mouseenter", showCoverBack);
+
     boxLink.addEventListener("mouseleave", (event) => {
       hideList();
+      hideCoverBack();
     });
   }
 });
@@ -76,3 +81,23 @@ $(document).ready(function () {
     showSlide(currentIndex);
   });
 });
+///////////////////////////////
+document.onreadystatechange = function () {
+  let lastScrollPosition = 0;
+  const header = document.querySelector(".header");
+  const imgBtnNavbar = document.querySelector("#btn-navbar img");
+
+  window.addEventListener("scroll", function () {
+    lastScrollPosition = window.scrollY;
+
+    if (lastScrollPosition > 50) {
+      if (!header.classList.contains("header-fixed")) {
+        header.classList.add("header-fixed");
+        imgBtnNavbar.src = "./images/circle-header-white.svg";
+      }
+    } else {
+      header.classList.remove("header-fixed");
+      imgBtnNavbar.src = "./images/circle-header.png";
+    }
+  });
+};

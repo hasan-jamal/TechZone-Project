@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <div id="coverBack"></div>
     <div class="navbar-mobile">
         <div class="coverNav" onclick="toggleSidenav();">
             <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
@@ -64,7 +65,7 @@
                 </div>
         </nav>
     </div>
-    <header id="header">
+    <header id="header" class="header">
         <div class="d-flex justify-content-between fx-style-header">
             <div class="section1-navbar">
                 <a href="./index.html"><img src="./images/logo.svg" alt="logo image"></a>
@@ -98,7 +99,7 @@
                                 </div>
                                 <div class="d-flex links-list">
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Mobile App Development</h4>
+                                        <h4 class="font-bold">Mobile App Development</h4>
                                         <a href="" class="style-font">Android App Development</a>
                                         <a href="" class="style-font">iOS App Development</a>
                                         <a href="" class="style-font">React Native App Development</a>
@@ -106,7 +107,7 @@
                                         <a href="" class="style-font">Augmented Reality / VR</a>
                                     </div>
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Hire Developers</h4>
+                                        <h4 class="font-bold">Hire Developers</h4>
                                         <a href="" class="style-font">Hire Mobile App Developers</a>
                                         <a href="" class="style-font">Hire Android App Developers</a>
                                         <a href="" class="style-font">Hire iOS App Developers</a>
@@ -116,15 +117,15 @@
                                         <a href="" class="style-font">Hire Software Developers</a>
                                     </div>
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Web Development</h4>
+                                        <h4 class="font-bold">Web Development</h4>
                                         <a href="" class="style-font">Ecommerce Development</a>
                                         <a href="" class="style-font">Content Management System (CMS)</a>
                                     </div>
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Software Development</h4>
+                                        <h4 class="font-bold">Software Development</h4>
                                     </div>
                                     <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium pre-whiteSpace">Quality Assurance and Testing</h4>
+                                        <h4 class="font-bold pre-whiteSpace">Quality Assurance and Testing</h4>
                                     </div>
                                 </div>
                             </div>
@@ -145,48 +146,62 @@
                                         </div>
                                         <div class="slide-nav"
                                             style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%), url('./images/mobile-app.png') lightgray 50% / cover no-repeat;">
-                                            <h1 class="font-bold">Products</h1>
+                                            <h1 class="font-bold">Industries</h1>
                                             <p class="font-semiBold">We deliver highest level of customer service by
                                                 deploying innovative and collaborative project management systems to
-                                                build the most professional, robust and scalable applications.</p>
+                                                build the most professional</p>
                                         </div>
                                     </div>
                                     <div class="slider-link-dots slide-target-dots"></div>
                                 </div>
-                                <div class="d-flex links-list">
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Web Hosting & Domain</h4>
-                                        <a href="" class="style-font">A comprehensive platform offering hosting
-                                            services, domain name registration, and subscription management
-                                            solutions.</a>
+                                <div class="section-Industries-boxs">
+                                    <div class="Industry-box">
+                                        <img src="./images/Automotive.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Automotive</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Healthcare</h4>
-                                        <a href="" class="style-font">A comprehensive platform offering healthcare
-                                            clinic management solutions and patient follow-up features.</a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Real Estate.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Real Estate</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Prime LMS</h4>
-                                        <a href="" class="style-font">A comprehensive e-learning platform offering tools
-                                            for students and parents to track academic progress and complete
-                                            assignments.</a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Entertainment.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Entertainment</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Prime Restaurants</h4>
-                                        <a href="" class="style-font">A comprehensive restaurant management platform
-                                            providing order taking, payment processing, and a wide range of
-                                            additional services.</a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Retail & Ecommerce.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Retail & Ecommerce</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">Prime Retail</h4>
-                                        <a href="" class="style-font">A comprehensive retail management system providing
-                                            numerous technical solutions.</a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Healthcare.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Healthcare</h6>
                                     </div>
-                                    <div class="d-flex flex-column flex-links-list">
-                                        <h4 class="font-medium">CPM</h4>
-                                        <a href="" class="style-font">A comprehensive system for managing real estate
-                                            development projects, including cost tracking and progress monitoring.
-                                        </a>
+                                    <div class="Industry-box">
+                                        <img src="./images/Transportation.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Transportation</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Manufacturing.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Manufacturing</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Travel & Tourism.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Travel & Tourism</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Professional Services.svg" alt="Automotive icon">
+                                        <h6 class="style-font font-bold">Professional Services</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Software.svg" alt="Real Estate icon">
+                                        <h6 class="style-font font-bold">Software Vendors</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Banking.svg" alt="Entertainment icon">
+                                        <h6 class="style-font font-bold">Banking & Finance</h6>
+                                    </div>
+                                    <div class="Industry-box">
+                                        <img src="./images/Education.svg" alt="Retail icon">
+                                        <h6 class="style-font font-bold">Education </h6>
                                     </div>
                                 </div>
                             </div>
@@ -330,7 +345,8 @@
                     </div>
                     <a href="./blog.html" class="link">Blog</a>
                     <a href="" class="link">+252 61 8601212</a>
-                    <button class="btn-section2-navbar " onclick="window.location.href='./contact.html'">
+                    <button class="btn-section2-navbar " id="btn-navbar"
+                        onclick="window.location.href='./contact.html'">
                         <img src="./images/circle-header.png" alt="circle-header">
                         <span>Free Consultation</span>
                     </button>
@@ -352,7 +368,7 @@
                     <source src="./images/hi tech global connection lines background 4k H4RDJ9P.mp4" type="video/mp4">
                     video background
                 </video>
-                <img src="./images/Image+Overlay.png" alt="Overlay Image" class="overlay-image">
+                <div class="overlay-image"></div>
                 <div class="content">
                     <h1 class="header-h1" data-aos="fade-up" data-aos-duration="3000">Inspire The <br>
                         Next.</h1>
@@ -378,7 +394,7 @@
                 <form action="" class="new-domain" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                     data-aos-delay="500" data-aos-offset="0">
                     <div class="d-flex align-items-center fx-new-domain">
-                        <div class="select-path">
+                        <!-- <div class="select-path">
                             <button type="button" class="style-font">
                                 <span class="select-span">.Com</span>
                                 <img src="./images/CaretDown.svg" alt="CaretDown">
@@ -388,9 +404,9 @@
                                 <span class="style-font domain-item">.Org</span>
                             </div>
                         </div>
-                        <div class="border-white"></div>
+                        <div class="border-white"></div> -->
                         <input type="text" placeholder="Enter your domain name" class="style-font">
-                        <button type="submit" class="btnCheck style-font">Check</button>
+                        <button type="submit" class="btnCheck style-font">Search Now</button>
                     </div>
 
                 </form>
@@ -603,28 +619,35 @@
                     a range of products that <br> boost efficiency,
                     innovation, and simplicity. Explore our projects.</p>
                 <div class="d-flex fx-innovative-projects">
-                    <div class="innovative-projects-tabs">
-                        <div class="d-flex innovative-projects-tab">
-                            <h5 class="style-font font-semiBold">01.</h5>
-                            <h5 class="style-font font-semiBold tab-title">Web Hosting & Domain</h5>
-                        </div>
-                        <div class="d-flex innovative-projects-tab">
-                            <h5 class="style-font font-semiBold">02.</h5>
-                            <h5 class="style-font font-semiBold tab-title">Prime Restaurants</h5>
-                        </div>
-                        <div class="d-flex innovative-projects-tab">
-                            <h5 class="style-font font-semiBold">03.</h5>
-                            <h5 class="style-font font-semiBold tab-title">Healthcare</h5>
-                        </div>
-                        <div class="d-flex innovative-projects-tab">
-                            <h5 class="style-font font-semiBold">04.</h5>
-                            <h5 class="style-font font-semiBold tab-title">Prime Retail</h5>
-                        </div>
-                        <div class="d-flex innovative-projects-tab">
-                            <h5 class="style-font font-semiBold">05.</h5>
-                            <h5 class="style-font font-semiBold tab-title">Prime LMS</h5>
+                    <div class="innovative-part1">
+                        <div class="innovative-projects-tabs">
+                            <div class="d-flex innovative-projects-tab">
+                                <h5 class="style-font font-semiBold">01.</h5>
+                                <h5 class="style-font font-semiBold tab-title">Web Hosting & Domain</h5>
+                            </div>
+                            <div class="d-flex innovative-projects-tab">
+                                <h5 class="style-font font-semiBold">02.</h5>
+                                <h5 class="style-font font-semiBold tab-title">Prime Restaurants</h5>
+                            </div>
+                            <div class="d-flex innovative-projects-tab">
+                                <h5 class="style-font font-semiBold">03.</h5>
+                                <h5 class="style-font font-semiBold tab-title">Healthcare</h5>
+                            </div>
+                            <div class="d-flex innovative-projects-tab">
+                                <h5 class="style-font font-semiBold">04.</h5>
+                                <h5 class="style-font font-semiBold tab-title">Prime Retail</h5>
+                            </div>
+                            <div class="d-flex innovative-projects-tab">
+                                <h5 class="style-font font-semiBold">05.</h5>
+                                <h5 class="style-font font-semiBold tab-title">Prime LMS</h5>
+                            </div>
+                            <div class="d-flex innovative-projects-tab">
+                                <h5 class="style-font font-semiBold">06.</h5>
+                                <h5 class="style-font font-semiBold tab-title">Web Hosting & Domain</h5>
+                            </div>
                         </div>
                     </div>
+
                     <div class="innovative-projects-content">
                         <div class="contant-tab">
                             <h5 class="style-font font-bold">01</h5>
@@ -681,6 +704,19 @@
                         <div class="contant-tab">
                             <h5 class="style-font font-bold">05</h5>
                             <h4 class="style-font font-bold">Prime LMS</h4>
+                            <p class="style-font">TechZone_Hosting is a company that provides various web hosting
+                                services with flexible
+                                and customizeable hosting plans.
+                                Here is an exploration of a Website for .
+                            </p>
+                            <div class="d-flex fx-box-content">
+                                <img src="./images/Web-Hosting.svg" alt="Web Hosting">
+                                <button class="btn-move">Website</button>
+                            </div>
+                        </div>
+                        <div class="contant-tab">
+                            <h5 class="style-font font-bold">01</h5>
+                            <h4 class="style-font font-bold">Web Hosting & Domain</h4>
                             <p class="style-font">TechZone_Hosting is a company that provides various web hosting
                                 services with flexible
                                 and customizeable hosting plans.
@@ -984,19 +1020,64 @@
                 <div class="slider-competitive-advantage">
                     <div class="slide">
                         <div class="slide-background" style=" background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 21.24%, rgba(0, 0, 0, 0.79) 57.22%, rgba(0, 0, 0, 0.61) 100%),
-                                            url(./images/competitive1.png);"></div>
+                                            url(./images/competitive1.png);">
+                            <div class="content">
+                                <h2 class="font-bold">GoSupps.com</h2>
+                                <p>GoSupps.com is a team who is in love with fitness and bodybuilding, with an
+                                    experience over 10 years in this
+                                    industry.</p>
+                                <button class="button-red gap-2" onclick="window.location.href='./contact.html'">
+                                    <img src="./images/circle-header.png" alt="circle-header">
+                                    <span>Free Consultation</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="slide">
                         <div class="slide-background" style=" background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 21.24%, rgba(0, 0, 0, 0.79) 57.22%, rgba(0, 0, 0, 0.61) 100%),
-                                                                url(./images/competitive2.png);"></div>
+                                                                url(./images/competitive2.png);">
+                            <div class="content">
+                                <h2>GoSupps.com</h2>
+                                <p>GoSupps.com is a team who is in love with fitness and bodybuilding, with an
+                                    experience over 10 years in this
+                                    industry.</p>
+                                <button class="button-red gap-2" onclick="window.location.href='./contact.html'">
+                                    <img src="./images/circle-header.png" alt="circle-header">
+                                    <span>Free Consultation</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="slide">
                         <div class="slide-background" style=" background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 21.24%, rgba(0, 0, 0, 0.79) 57.22%, rgba(0, 0, 0, 0.61) 100%),
-                                                                url(./images/competitive3.png);"></div>
+                                                                url(./images/competitive3.png);">
+                            <div class="content">
+                                <h2 class="font-bold">GoSupps.com</h2>
+                                <p class="font-OpenSans">GoSupps.com is a team who is in love with fitness and
+                                    bodybuilding, with an
+                                    experience over 10 years in this
+                                    industry.</p>
+                                <button class="button-red gap-2" onclick="window.location.href='./contact.html'">
+                                    <img src="./images/circle-header.png" alt="circle-header">
+                                    <span>Free Consultation</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                     <div class="slide">
                         <div class="slide-background" style=" background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 21.24%, rgba(0, 0, 0, 0.79) 57.22%, rgba(0, 0, 0, 0.61) 100%),
-                                                                url(./images/competitive4.png);"></div>
+                                                                url(./images/competitive4.png);">
+                            <div class="content">
+                                <h2>GoSupps.com</h2>
+                                <p>GoSupps.com is a team who is in love with fitness and bodybuilding, with an
+                                    experience over 10 years in this
+                                    industry.</p>
+                                <button class="button-red gap-2" onclick="window.location.href='./contact.html'">
+                                    <img src="./images/circle-header.png" alt="circle-header">
+                                    <span>Free Consultation</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1347,10 +1428,6 @@
     <script src="./js/landingPage.js"></script>
     <!--Navbar JS-->
     <script src="./js/navbar-pages.js"></script>
-    <!-- gsap Animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
-    <script src="./js/gsap.js"></script>
     <!-- Dropdown FAQ-->
     <script src="./js/dropdowns/dropdown-faq.js"></script>
     <!-- Slider Country -->

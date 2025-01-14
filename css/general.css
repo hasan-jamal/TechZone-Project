@@ -301,7 +301,18 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
   line-height: 25px;
   margin-bottom: 1.5rem;
 }
-
+ .coverBack {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 10;
+  transition: background-color 0.3s, transform 0.3s;
+  display: block;
+}
 /* End Pagination */
 @media (max-width: 1300px) {
      .fx-general-cards .fx-general-card-st {
@@ -334,35 +345,57 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
 }
 @media (max-width:1300px) {
   .box-move-row h2{font-size: 24px;}
-  .button-red {
-    padding: 17px 24px;
-    font-size: 14px;
-  }
-    .btn-move,
-    .button-red{
-      font-size: 15px;
-      height: 48px;
-    }
 }
 @media (max-width:1150px) {
-     .button-red {
-        padding: 8px 16px;
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
     .box-move{
       padding: 20px;
     }
 }
 @media (max-width:1000px) {
+.section-countries-margin{margin-bottom: 0px !important;}
+.pagination{margin-top: 1.5rem;}
+
+}
+
+@media (max-width:1228.8px) {
   .btn-move,
-  .btn-white{
+  .btn-white,
+  .button-red{
     font-size: 13px;
     letter-spacing: 1px;
     height: 45px;
      padding: 0 24px;
   }
-.section-countries-margin{margin-bottom: 0px !important;}
-.pagination{margin-top: 1.5rem;}
-
+}
+@media (max-width:1024px) {
+  .btn-move,
+  .btn-white,
+  .button-red{
+    font-size: 11px;
+    height: 40px;
+    padding: 0 16px;
+  }
+}
+@media (max-width:877.71px) {
+  .btn-move,
+  .btn-white,
+  .button-red{
+    font-size: 10px;
+    height: 35px;
+  }
+}
+@media (max-width:768px) {
+  .btn-move,
+  .btn-white,
+  .button-red{
+    white-space: normal;
+    font-size: 12px;
+    height: 45px;
+  }
+}
+@media (max-width:614.4px) {
+    
+}
+@media (max-width:512px) {
+    
 }
