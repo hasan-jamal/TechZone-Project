@@ -10,9 +10,7 @@
   text-transform: uppercase;
   padding-bottom: 38px;
 }
-.subHeader-p{
-    width: 50%;
-}
+
 .section-one-video .video-background {
   position: relative;
   height: max-content;
@@ -48,31 +46,26 @@
   text-align: start;
   z-index: 5 
 }
-@media (max-width:1400px) {
+@media (min-width:1700px) {
+    .section-one-video .header-h1{font-size: 132px;}
+    .line-red{margin-bottom: 2rem;width: 140px;}
+}
+@media (max-width:1396.36px) {
  .section-one-video .header-h1{font-size: 100px;}
 }
-@media (max-width:1300px) {
-       .section-one-video .header-h1{
+@media (max-width:1228.8px) {
+    .section-one-video .header-h1{
         font-size: 100px;
         line-height: 95px;
         padding-bottom: 1rem;
-        }
-       .section-one-video .video-background{padding: 11rem 70px 8rem 70px;}
-}
-@media (max-width:1150px) {
-    
+    }
+    .section-one-video .video-background{padding: 11rem 70px 8rem 70px;}
 }
 @media (max-width:1024px) {
-    .section-one-video .header-h1 {
-        font-size: 43px;
-        line-height: 45px;
-        padding-bottom: 24px;
-    }
     .section-one-video .video-background{
-        padding: 10rem 20px;
+        padding: 10rem 50px;
     }
     .fx-style-header .section1-navbar img{width: 150px;}
-    .subHeader-p{white-space: normal;width: 100%;}
 }
 @media (max-width:768px) {
     .section-one-video .header-h1 {
@@ -80,20 +73,13 @@
         line-height: 62px;
         padding-bottom: 8px;
     }
-    .subHeader-p {
-        font-size: 18px;
-        line-height: 26px;
-        font-weight: 400;
+}
+@media (max-width:614.41px) {
+    .section-one-video .video-background{
+        padding: 10rem 20px;
     }
 }
-@media (min-width:1700px) {
-    .section-one-video .header-h1{font-size: 132px;}
-    .subHeader-p{
-        font-size: 24px;
-        margin-bottom: 2rem;
-    }
-    .line-red{margin-bottom: 2rem;width: 140px;}
-}
+
 /* Section Domain Name */
 .section-domain-name{
     background: #472667;
@@ -113,6 +99,7 @@
     width:55%;
     margin: auto;
     margin-bottom: 40px;
+    text-align: justify;
 }
 .section-domain-name .new-domain{
     border-radius: 8px;
@@ -122,7 +109,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 40%;
+    width: 63%;
     margin: auto;
     padding: 10px 20px;
 }
@@ -187,7 +174,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     justify-content: center;
     align-items: center;
     padding: 0 16px;
-    white-space: pre;
+    white-space: nowrap;
 }
 .section-domain-name .border-white{
     height: 50px;
@@ -216,8 +203,21 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         width: 60%;
     }
 }
-@media (max-width:1000px) {
-    .section-domain-name{
+@media (max-width:1228.8px) {
+    .section-domain-name h3{font-size: 34px;margin: auto;margin-bottom: 1rem; }
+    .section-domain-name p{line-height: 26px;font-size: 16px;}
+    .section-domain-name .new-domain{width: 70%;}
+}
+@media (max-width:1024px) {
+    .section-domain-name h3{font-size: 30px; }
+    .section-domain-name p{font-size: 15px;width: 70%;}
+    .section-domain-name .new-domain{width: 73%;}
+}
+@media (max-width:877.71px) {
+    .section-domain-name .new-domain{width: 78%;}
+}
+@media (max-width:614.41px) {
+.section-domain-name{
         padding: 50px 20px;
     }
     .section-domain-name h3 {
@@ -710,6 +710,9 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 35px;
     width: 65%;
     margin:0px auto 16px auto;
+}
+.section-innovative-projects .button-red{
+    margin: 2rem auto;
 }
 .section-innovative-projects .line-red{
     width: 145px;

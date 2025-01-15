@@ -38,12 +38,11 @@ $(document).ready(function () {
   $(".slider-competitive-advantage").slick({
     prevArrow: $(".left-competitive"),
     nextArrow: $(".right-competitive"),
-    centerMode: true,
     centerPadding: "0px",
     infinite: true,
-    slidesToShow: 3.2,
+    slidesToShow: 3.8,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     dots: false,
     responsive: [

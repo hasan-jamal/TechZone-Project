@@ -152,7 +152,7 @@ main .section-service-details2 p{
     line-height: 30px;
     white-space: pre-line;
 }
-.section-header .section-header-detail{padding: 10rem 89px;}
+.section-header .section-header-detail{padding: 5rem 89px 0 89px;}
 .section-header .section-header-detail h2{
     color: #FFF;
     font-size: 90px;
@@ -1581,7 +1581,6 @@ main .section-competitive-advantage2 .fx-competitive-advantage2 .slide-backgroun
 .section-portfolio{
     background: #CB1F49;
     color: #FFF;
-    padding: 30vh 0 25vh 0;
 }
 /* Show the active slide */
 /* Fade-in animation */
@@ -1681,21 +1680,26 @@ main .section-competitive-advantage2 .fx-competitive-advantage2 .slide-backgroun
 }
 .slider-portfolio {
   overflow: hidden;
-  height: 100vh; /* Full viewport height */
+  height: 120vh; 
+  padding-top: 10rem;
+  position: relative;
 }
-
 .slide-portfolio {
   position: absolute;
-  width: 100%;
-  height: 100%;
   transform: translateY(100%);
   opacity: 0;
   transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+  width: 0%;
+  height: 0%;
+  display: none;
 }
 
 .slide-portfolio.active {
   transform: translateY(0);
   opacity: 1;
+    width: 100%;
+  height: 100%;
+    display: block;
 }
 
 .fade-in {

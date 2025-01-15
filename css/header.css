@@ -162,7 +162,7 @@ header .fx-style-header .section1-navbar a{
 #header .section2-navbar  .links-navbar a:hover{
     transform: scale(1.1);
 }
-.header .section2-navbar  .links-navbar .btn-section2-navbar{
+header .section2-navbar  .links-navbar .btn-section2-navbar{
     display: flex;
     padding: 9.5px 20px 9.5px 20px;
     justify-content: start;
@@ -199,8 +199,7 @@ header .fx-style-header .section1-navbar a{
     margin-left: 0px;
 }
 /* Header Menus*/
-.section2-navbar .box-link{
-}
+
 #header .links-navbar .list-menu-link{
   position: absolute;
   z-index: 15;
@@ -356,6 +355,20 @@ transform: scale(0.95);
   background: #fff;
   color: #472667;
 }
+.header-fixed2{
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  background: #472667;
+  padding: 24px 80px 24px 80px;
+  animation: fixHeader 0.5s ease-in-out forwards;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header-fixed2 .section2-navbar .links-navbar .btn-section2-navbar{
+  background: #fff;
+  color: #472667;
+}
 @keyframes slideDown {
   0% {
     opacity: 0;
@@ -376,45 +389,61 @@ transform: scale(0.95);
     transform: translateY(0); /* Slide down into place */
   }
 }
+@media (min-width:1920px) {
+ main .section-one-video .header-h1 {
+          font-size: 173px;
+          line-height: 150px;
+  }
+}
 @media (min-width:2304px) {
   .header-fixed{position: relative;}
+  .header-fixed2{position: relative;}
 }
-@media (max-width:1400px) {
+@media (max-width:1396.36px) {
   #header .links-navbar .list-menu-link .links-list .flex-links-list a{line-height: 28px;}
   #header .links-navbar .list-menu-link .links-list .flex-links-list{
     gap: 8px;
   }
 }
-@media (max-width:1300px) {
-    .header .section2-navbar .links-navbar .btn-section2-navbar{
-        font-size: 12px;
-        padding: 9.5px 10px 9.5px 10px;
-    }
-    #header .section2-navbar .links-navbar{gap: 16px;}
-    #header .links-navbar .list-menu-link .links-list .flex-links-list h4{
-      font-size: 16px;
-      line-height: 26px;
-    }
-    #header .links-navbar .list-menu-link .links-list .flex-links-list a{
-      font-size: 13px;
-      line-height: 22px;
-    }
-    #header .links-navbar .list-menu-link .code-slider .slide-nav p{
-      font-size: 16px;
-      line-height: 25px;
-    }
-    #header .section2-navbar .links-navbar .link{font-size: 14px;font-weight: 600;}
+
+@media (max-width:1228.8px) {
+  header .section2-navbar .links-navbar .btn-section2-navbar{
+      font-size: 12px;
+      padding: 9.5px 10px 9.5px 10px;
+  }
+  #header .section2-navbar .links-navbar{gap: 16px;}
+  #header .links-navbar .list-menu-link .links-list .flex-links-list h4{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  #header .links-navbar .list-menu-link .links-list .flex-links-list a{
+    font-size: 13px;
+    line-height: 22px;
+  }
+  #header .links-navbar .list-menu-link .code-slider .slide-nav p{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #header .section2-navbar .links-navbar .link{font-size: 14px;font-weight: 600;}
 }
-@media (max-width:1150px) {
+@media (max-width:1024px) {
+  header{padding: 40px 24px 0 24px;}
    .navbar-mobile{display: block;} 
    .navbar-mobile .flex-head{display: none !important;}
   #header .section2-navbar .links-navbar .link{display: none;}
   #header .section2-navbar  .links-navbar .btn-side-header{display: flex;}
+  .header-fixed{padding: 24px 50px;}
+  .header-fixed2{padding: 24px 50px;}
 }
-@media (max-width:750px) {
+@media (max-width:877.71px) {
+.header-fixed{padding: 24px 30px;}
+.header-fixed2{padding: 24px 30px;}
+}
+@media (max-width:768px) {
     .header .section2-navbar .links-navbar .btn-section2-navbar{display: none;}
     .header{padding: 30px 20px;}
-     .header-fixed{padding: 20px 20px;}
+    .header-fixed{padding: 20px 20px;}
+    .header-fixed2{padding: 20px 20px;}
     #header .links-navbar .list-menu-link{display: none;}
 }
 
@@ -422,17 +451,12 @@ transform: scale(0.95);
   #header .section2-navbar .links-navbar .link{
     font-size: 21px;
   }
-.header .section2-navbar .links-navbar .btn-section2-navbar {
+header .section2-navbar .links-navbar .btn-section2-navbar {
     padding: 15px 20px;
     font-size: 20px;
 }
 }
-@media (min-width:1920px) {
- main .section-one-video .header-h1 {
-          font-size: 173px;
-          line-height: 150px;
-      }
-}
+
 @media (min-width:2048px) {
 
 }
@@ -455,10 +479,4 @@ transform: scale(0.95);
     font-size: 13px;
   }
   header{padding-top: 24px;}
-}
-@media (max-width:1150px){
-
-}
-@media (max-width:1000px){
-
 }

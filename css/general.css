@@ -131,12 +131,33 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
   font-style: normal;
   font-weight: 600;
   line-height: 30px; 
+  width: 50%;
 }
-@media (max-width:1300px) {
+@media (min-width:1700px) {
+     .subHeader-p{
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width:1396.36px) {
   .subHeader-p{
     font-size: 18px;
     line-height: 28px;
   }
+}
+@media (max-width:1024px) {
+   .subHeader-p{white-space: normal;width: 65%;}
+}
+@media (max-width:768px) {
+  .subHeader-p {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+      width: 75%;
+  }
+}
+@media (max-width:512px) {
+   .subHeader-p{width: 90%;}
 }
 .font-red{color: #CB1F49;text-transform: uppercase;}
 .font-red-capitalize{color: #CB1F49;text-transform: capitalize;}

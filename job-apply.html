@@ -64,7 +64,7 @@
                 </div>
         </nav>
     </div>
-    <header id="header" class="header">
+    <header id="header" class="header2">
         <div class="d-flex justify-content-between fx-style-header">
             <div class="section1-navbar">
                 <a href="./index.html"><img src="./images/logo.svg" alt="logo image"></a>
@@ -330,7 +330,8 @@
                     </div>
                     <a href="./blog.html" class="link">Blog</a>
                     <a href="" class="link">+252 61 8601212</a>
-                    <button class="btn-section2-navbar white-back" onclick="window.location.href='./contact.html'">
+                    <button class="btn-section2-navbar white-back" id="btn-navbar"
+                        onclick="window.location.href='./contact.html'">
                         <img src="./images/circle-header-white.svg" alt="circle-header">
                         <span>Free Consultation</span>
                     </button>
@@ -380,10 +381,6 @@
                     <div class="fx-industry-part">
                         <h1 class="style-font font-bold"> 230 <span class="font-red">+</span></h1>
                         <p class="style-font font-medium">IT PROFESSIONALS</p>
-                    </div>
-                    <div class="fx-industry-part fx-industry-part-center">
-                        <p class="style-font font-medium pb-4">ISO 9001 <span class="font-red">CERTIFIED</span></p>
-                        <p class="style-font font-medium">NASSCOM &amp; STPI ACCREDITATION</p>
                     </div>
                     <div class="fx-industry-part">
                         <h1 class="style-font font-bold"> 1800 <span class="font-red">+</span></h1>
@@ -595,10 +592,7 @@
     <script src="./js/slick slider/slick.js"></script>
     <!--Navbar JS-->
     <script src="./js/navbar-pages.js"></script>
-    <!-- gsap Animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
-    <script src="./js/gsap.js"></script>
+    <script src="./js/header/header-fixed2.js"></script>
     <script>
         $(document).ready(function () {
             $('.dropdown-phone-btn').click(function (event) {
