@@ -425,6 +425,11 @@ transform: scale(0.95);
     line-height: 25px;
   }
   #header .section2-navbar .links-navbar .link{font-size: 14px;font-weight: 600;}
+    .header-fixed{padding: 24px 50px;}
+    #header .links-navbar .list-menu-link .code-slider .slider-link{height: 400px;}
+    #header .links-navbar .list-menu-link .section-Industries-boxs .Industry-box{height: 133.5px;}
+    #header .links-navbar .list-menu-link .section-Industries-boxs .Industry-box h6{font-size: 14px;}
+    #header .links-navbar .list-menu-link .section-Industries-boxs .Industry-box img{width: 60px;}
 }
 @media (max-width:1024px) {
   header{padding: 40px 24px 0 24px;}
@@ -433,7 +438,7 @@ transform: scale(0.95);
   #header .section2-navbar .links-navbar .link{display: none;}
   #header .section2-navbar  .links-navbar .btn-side-header{display: flex;}
   .header-fixed{padding: 24px 50px;}
-  .header-fixed2{padding: 24px 50px;}
+ #header .links-navbar .list-menu-link{display: none;}
 }
 @media (max-width:877.71px) {
 .header-fixed{padding: 24px 30px;}
