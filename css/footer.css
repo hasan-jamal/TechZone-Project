@@ -7,7 +7,7 @@ footer .footer-container .fx-footer{
     flex-wrap: wrap;
     gap: 80px;
 }
-footer .footer-container .fx-footer .fx-footer-part1{
+ .fx-footer-part1{
     flex: 1 1 calc(28% - 1px);
     box-sizing: border-box;
     max-width: calc(28% - 0px);
@@ -15,7 +15,7 @@ footer .footer-container .fx-footer .fx-footer-part1{
     transition: 0.3s; 
     cursor: pointer;
 }
-footer .footer-container .fx-footer .fx-footer-part1 .logo-footer{
+.fx-footer-part1 .logo-footer{
     margin-bottom: 28px;
     width: 100%;
 }
