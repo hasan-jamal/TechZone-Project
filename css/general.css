@@ -250,7 +250,7 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
 }
 .box-move h3{margin-bottom: 26px;color: #fff !important;font-size: 30px;}
 .box-move button{display: flex;margin: auto;}
-@media (max-width:1000px) {
+@media (max-width:1024px) {
   .box-move-row{ 
     padding: 24px;
     flex-direction: column;
@@ -259,8 +259,12 @@ button:hover,.btn-hover:hover{transform: scale(0.9);}
   .box-move-row h2{
     font-size: 20px;
   }
+  .box-move{width: 400px;}
   .box-move h3{margin-bottom: 20px;font-size: 24px;}
   main .box-move p{line-height: normal !important;}
+}
+@media (max-width:614.4px) {
+    .box-move{width: 100%;}
 }
 /* Pagination */
 .pagination{

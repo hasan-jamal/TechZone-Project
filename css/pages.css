@@ -1037,7 +1037,7 @@ main .section-contactPage .form-contact .group-fullWidth .cloud-upload{
         line-height: 25px;
     }
 }
-@media (max-width:1000px) {
+@media (max-width:1024px) {
 .section-texts .section-texts-container {
         padding: 0px 20px;
  }
